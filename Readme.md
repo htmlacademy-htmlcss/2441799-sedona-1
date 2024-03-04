@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина](https://up.htmlacademy.ru/htmlcss-individual/1/user/2441799).
-* Наставник: `Неизвестно`.
+* Наставник: [Виталий Драгулин](https://htmlacademy.ru/profile/id1008501).
 
 ---
 
