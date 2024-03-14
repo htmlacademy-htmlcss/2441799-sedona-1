@@ -67,26 +67,53 @@
         <section class="filter">
           <h2 class="visually-hidden">Подбор гостиницы</h2>
           <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="filter-group">
-              <legend class="filter-group-title">Инфраструктура:</legend>
-              <label class="control">
-                <input class="control-input" type="checkbox" name="pool" checked>
-                Бассейн
-              </label>
-              <label class="control">
-                <input class="control-input" type="checkbox" name="parking" checked>
-                Парковка
-              </label>
-              <label class="control">
-                <input class="control-input" type="checkbox" name="wi-fi">
-                Wi-Fi
-              </label>
 
+            <fieldset class="filter-infrastructure">
+              <legend class="filter-infrastructure-title">Инфраструктура:</legend>
+              <ul class="filter-infrastructure-list">
+                <li class="filter-infrastructure-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="pool" checked>
+                    Бассейн
+                  </label>
+                </li>
+                <li class="filter-infrastructure-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="parking" checked>
+                    Парковка
+                  </label>
+                </li>
+                <li class="filter-infrastructure-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="wi-fi">
+                    Wi-Fi
+                  </label>
+                </li>
+              </ul>
             </fieldset>
 
-            <fieldset class="filter-group">
-              <legend class="filter-group-title">Тип жилья:</legend>
-
+            <fieldset class="filter-type">
+              <legend class="filter-type-title">Тип жилья:</legend>
+              <ul class="filter-type-list">
+                <li class="filter-type-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="type-of-housing" value="hotels" checked>
+                    Бассейн
+                  </label>
+                </li>
+                <li class="filter-type-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="type-of-housing" value="motel">
+                    Мотель
+                  </label>
+                </li>
+                <li class="filter-type-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="type-of-housing" value="apartments">
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
             </fieldset>
 
           </form>
