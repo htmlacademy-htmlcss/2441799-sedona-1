@@ -115,6 +115,19 @@
                 </li>
               </ul>
             </fieldset>
+
+            <fieldset class="filter-price">
+              <legend class="filter-price-title">Стоимость, ₽:</legend>
+              <label class="from">
+                <input type="number" name="price-from" value="0" min="0" max="9000" placeholder="0">
+                от
+              </label>
+              <label class="to">
+                <input type="number" name="price-to" value="9000" min="0" max="9000" placeholder="9000">
+                до
+              </label>
+            </fieldset>
+
             <button class="filter-button button-active" type="submit">Применить</button>
             <button class="filter-button button-light" type="reset">Сбросить</button>
 
