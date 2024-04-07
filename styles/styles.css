@@ -102,6 +102,21 @@ body {
     color: #333333;
 }
 
+.distribution {
+    background-image: url("../images/index/subscribe-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
 .distribution-title, .distribution-text {
     color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer-tel {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
 }
