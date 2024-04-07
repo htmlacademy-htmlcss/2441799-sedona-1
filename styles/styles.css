@@ -22,18 +22,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 /* Header*/
 
@@ -81,7 +69,9 @@ body {
   color: #333333;
 }
 
+
 .white-advantages {
+
     background-color: #82B3D3;
     color: #FFFFFF;
 }
@@ -94,9 +84,9 @@ body {
     background-color: #83B3D333;
 }
 
-/* Поиск гостиницы */
+/* Поиск гостиницы и рассылка */
 
-.search-title {
+.search-title, .distribution-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -104,10 +94,14 @@ body {
     text-align: center;
 }
 
-.search-text {
+.search-text, .distribution-text {
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
     text-align: center;
     color: #333333;
+}
+
+.distribution-title, .distribution-text {
+    color: #FFFFFF;
 }
