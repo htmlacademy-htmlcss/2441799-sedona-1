@@ -51,6 +51,10 @@ body {
     background-color: #82B3D3;
 }
 
+.light-button {
+    background-color: transparent;
+}
+
 /* Header*/
 
 .navigation-link {
@@ -151,4 +155,46 @@ body {
     font-size: 40px;
     line-height: 40px;
     text-align: center;
+}
+
+
+/* Фильтр */
+
+.filter {
+    color: #FFFFFF;
+    background-image: url("../images/catalog/catalog-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.inner-header-title {
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 78px;
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.filter-infrastructure-title, .filter-type-title, .filter-price-title {
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 24px;
+}
+
+.filter-infrastructure-item, .filter-type-item {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 23px;
+}
+
+.from, .to {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 24px;
 }
