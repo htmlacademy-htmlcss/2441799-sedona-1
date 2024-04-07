@@ -26,19 +26,23 @@ body {
 
 .button {
     font-family: "PT Sans", sans-serif;
-    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
+    border-radius: 4px;
+    padding: 8px 50px;
+    gap: 10px;
 }
 
 .button.navigation-link, .filter-button, .button-catalog-details, .button-catalog-favorite {
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
 }
 
 .button-search, .button-distribution {
+    font-weight: 700;
     font-size: 20px;
     line-height: 36px;
 }
@@ -51,8 +55,46 @@ body {
     background-color: #82B3D3;
 }
 
+.button-catalog-favorite.active-favorite {
+    background-color: #7DB54F;
+}
+
 .light-button {
     background-color: transparent;
+}
+
+.button.rating {
+    font-weight: 400px;
+    color: #000000;
+    background-color: #F2F2F2;
+    width: 140px;
+    height: 37px;
+}
+
+.button.navigation-link {
+    width: 160px;
+    height: hug (36px);
+}
+
+.button-search {
+    width: hug (376px);
+    height: hug (52px);
+}
+
+.button-distribution {
+    width: hug (232px);
+    height: hug (52px);
+    border-radius: 0px 4px;
+}
+
+.filter-button.active, .light-button {
+    width: 191px;
+    height: hug (36px);
+}
+
+.button-catalog-details, .button-catalog-favorite, .button-catalog-favorite.active-favorite {
+    width: 140px;
+    height: hug (36px);
 }
 
 /* Header*/
@@ -189,7 +231,6 @@ body {
 
 .filter-infrastructure-item, .filter-type-item {
     font-size: 18px;
-    font-weight: 400px;
     line-height: 23px;
 }
 
@@ -198,3 +239,32 @@ body {
     font-weight: 400px;
     line-height: 24px;
 }
+
+/* Каталог */
+
+.catalog-text {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.select-control {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 21px;
+}
+
+.catalog-item-title {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.catalog-item-text, .catalog-item-price, .rating {
+    color: #333333;
+}
+
+.catalog-item-price {
+    text-align: right;
+}
+
+/* Пагинация */
