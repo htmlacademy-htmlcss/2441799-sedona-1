@@ -22,6 +22,34 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Кнопки */
+
+.button {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button.navigation-link, .filter-button, .button-catalog-details, .button-catalog-favorite {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button-search, .button-distribution {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.button.navigation-link, .button-search, .button-catalog-details {
+    background-color: #756157;
+}
+
+.button-distribution, .filter-button.active, .button-catalog-favorite {
+    background-color: #82B3D3;
+}
 
 /* Header*/
 
@@ -31,6 +59,10 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: #000000;
+}
+
+.button.navigation-link {
+    color: #FFFFFF;
 }
 
 .hero {
