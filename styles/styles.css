@@ -93,3 +93,21 @@ body {
 .black-2-advantages {
     background-color: #83B3D333;
 }
+
+/* Поиск гостиницы */
+
+.search-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.search-text {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+}
