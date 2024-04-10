@@ -64,7 +64,7 @@ body {
 }
 
 .button-rating {
-    font-weight: 400px;
+    font-weight: 400;
     color: #000000;
     background-color: #F2F2F2;
     width: 140px;
@@ -211,7 +211,7 @@ body {
 
 .inner-header-title {
     font-size: 60px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 78px;
 }
 
@@ -225,7 +225,7 @@ body {
 
 .filter-infrastructure-title, .filter-type-title, .filter-price-title {
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 24px;
 }
 
@@ -236,7 +236,7 @@ body {
 
 .from, .to {
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 24px;
 }
 
@@ -244,13 +244,13 @@ body {
 
 .catalog-text {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 36px;
 }
 
 .select-control {
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px;
 }
 
