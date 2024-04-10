@@ -32,7 +32,6 @@ body {
     color: #FFFFFF;
     border-radius: 4px;
     padding: 8px 50px;
-    gap: 10px;
 }
 
 .button.navigation-link, .filter-button, .button-catalog-details, .button-catalog-favorite {
@@ -67,35 +66,9 @@ body {
     font-weight: 400;
     color: #000000;
     background-color: #F2F2F2;
-    width: 140px;
-    height: 37px;
 }
 
-.button.navigation-link {
-    width: 160px;
-    height: 36px;
-}
 
-.button-search {
-    width: 376px;
-    height: 52px;
-}
-
-.button-distribution {
-    width: 232px;
-    height: 52px;
-    border-radius: 0px 4px;
-}
-
-.filter-button, .light-button {
-    width: 191px;
-    height: 36px;
-}
-
-.button-catalog-details, .button-catalog-favorite, .button-catalog-favorite.active-favorite {
-    width: 140px;
-    height: 36px;
-}
 
 /* Header*/
 
@@ -164,7 +137,7 @@ body {
 
 /* Поиск гостиницы и рассылка */
 
-.search-title, .distribution-title {
+.search-title, .distribution-title, .distribution-title-catalog {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -172,7 +145,7 @@ body {
     text-align: center;
 }
 
-.search-text, .distribution-text {
+.search-text, .distribution-text, .distribution-text-catalog {
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -190,6 +163,19 @@ body {
 .distribution-title, .distribution-text {
     color: #FFFFFF;
 }
+
+.distribution-catalog {
+    background-color: #FFFFFF;
+}
+
+.distribution-title-catalog {
+    color: #000000;
+}
+
+.distribution-text-catalog {
+    color: #333333;
+}
+
 
 /* Footer */
 
