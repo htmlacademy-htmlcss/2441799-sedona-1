@@ -51,7 +51,7 @@ body {
     background-color: #756157;
 }
 
-.button-distribution, .filter-button.active, .button-catalog-favorite {
+.button-distribution, .filter-button, .button-catalog-favorite {
     background-color: #82B3D3;
 }
 
@@ -87,7 +87,7 @@ body {
     border-radius: 0px 4px;
 }
 
-.filter-button.active, .light-button {
+.filter-button, .light-button {
     width: 191px;
     height: hug (36px);
 }
