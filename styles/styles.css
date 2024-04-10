@@ -80,7 +80,7 @@ body {
     color: #000000;
 }
 
-.button.navigation-link {
+.button-navigation-link {
     color: #FFFFFF;
 }
 
@@ -91,6 +91,18 @@ body {
 }
 
 /* Преимущества */
+
+.white-advantages {
+    background-color: #82B3D3;
+}
+
+.black-1-advantages {
+    background-color: #83B3D31F;
+}
+
+.black-2-advantages {
+    background-color: #83B3D333;
+}
 
 .advantages-cause-text-head, .advantages-comfort-text-head {
     font-size: 30px;
@@ -118,22 +130,13 @@ body {
 
 .advantages-cause-description, .advantages-comfort-description {
   color: #333333;
+  text-align: center;
 }
 
-
-.white-advantages {
-
-    background-color: #82B3D3;
+.advantages-cause-description-white, .advantages-cause-title-white {
     color: #FFFFFF;
 }
 
-.black-1-advantages {
-    background-color: #83B3D31F;
-}
-
-.black-2-advantages {
-    background-color: #83B3D333;
-}
 
 /* Поиск гостиницы и рассылка */
 
@@ -254,3 +257,23 @@ body {
 }
 
 /* Пагинация */
+
+.slider-pagination-link {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+}
+
+.pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
+}
+
+.pagination-hidden {
+    color: #000000;
+    background-color: #FFFFFF;
+}
