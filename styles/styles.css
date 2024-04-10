@@ -73,28 +73,28 @@ body {
 
 .button.navigation-link {
     width: 160px;
-    height: hug (36px);
+    height: 36px;
 }
 
 .button-search {
-    width: hug (376px);
-    height: hug (52px);
+    width: 376px;
+    height: 52px;
 }
 
 .button-distribution {
-    width: hug (232px);
-    height: hug (52px);
+    width: 232px;
+    height: 52px;
     border-radius: 0px 4px;
 }
 
 .filter-button, .light-button {
     width: 191px;
-    height: hug (36px);
+    height: 36px;
 }
 
 .button-catalog-details, .button-catalog-favorite, .button-catalog-favorite.active-favorite {
     width: 140px;
-    height: hug (36px);
+    height: 36px;
 }
 
 /* Header*/
