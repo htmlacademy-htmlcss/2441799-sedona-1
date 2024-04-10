@@ -63,7 +63,7 @@ body {
     background-color: transparent;
 }
 
-.button.rating {
+.button-rating {
     font-weight: 400px;
     color: #000000;
     background-color: #F2F2F2;
@@ -259,7 +259,7 @@ body {
     line-height: 28px;
 }
 
-.catalog-item-text, .catalog-item-price, .rating {
+.catalog-item-text, .catalog-item-price, .button-rating {
     color: #333333;
 }
 
