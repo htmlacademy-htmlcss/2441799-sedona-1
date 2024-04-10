@@ -99,6 +99,7 @@ body {
 
 .hero {
     background-image: url("../images/index/hero-index-background.jpg");
+    background-color: #000000;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -171,6 +172,7 @@ body {
 
 .distribution {
     background-image: url("../images/index/subscribe-background.jpg");
+    background-color: #000000;
     background-size: 100% auto;
     background-repeat: no-repeat;
 
@@ -207,6 +209,7 @@ body {
 .filter {
     color: #FFFFFF;
     background-image: url("../images/catalog/catalog-background.jpg");
+    background-color: #000000;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
