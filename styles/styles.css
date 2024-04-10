@@ -47,7 +47,7 @@ body {
     padding: 8px 50px;
 }
 
-.button.navigation-link, .filter-button, .button-catalog-details, .button-catalog-favorite {
+.button-navigation-link, .filter-button, .button-catalog-details, .button-catalog-favorite {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -59,7 +59,7 @@ body {
     line-height: 36px;
 }
 
-.button.navigation-link, .button-search, .button-catalog-details {
+.button-navigation-link, .button-search, .button-catalog-details {
     background-color: #756157;
 }
 
@@ -67,7 +67,7 @@ body {
     background-color: #82B3D3;
 }
 
-.button-catalog-favorite.active-favorite {
+.button-catalog-active-favorite {
     background-color: #7DB54F;
 }
 
@@ -99,7 +99,7 @@ body {
 
 .hero {
     background-image: url("../images/index/hero-index-background.jpg");
-    background-color: #000000;
+    background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -175,7 +175,7 @@ body {
 
 .distribution {
     background-image: url("../images/index/subscribe-background.jpg");
-    background-color: #000000;
+    background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
 
@@ -212,7 +212,7 @@ body {
 .filter {
     color: #FFFFFF;
     background-image: url("../images/catalog/catalog-background.jpg");
-    background-color: #000000;
+    background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
