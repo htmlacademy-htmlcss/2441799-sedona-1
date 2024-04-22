@@ -267,6 +267,24 @@ body {
     text-align: center;
 }
 
+.page-footer-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-social {
+    width: 142px;
+    margin-right: 41.5px;
+}
+
+.footer-tel {
+    width: 720px;
+}
+
+.dev-logo {
+    width: 115px;
+}
 
 /* Фильтр */
 
