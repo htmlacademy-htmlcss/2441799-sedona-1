@@ -105,6 +105,23 @@ body {
     color: #FFFFFF;
 }
 
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    width: 507px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-user {
+    max-width: 88px;
+    margin-left: auto;
+  }
+
 /*Main*/
 
 .main-container {
