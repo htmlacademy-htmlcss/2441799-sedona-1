@@ -288,6 +288,10 @@ body {
 
 /* Фильтр */
 
+.filter-content {
+    width: 1060px;
+}
+
 .filter {
     color: #FFFFFF;
     background-image: url("../images/catalog/catalog-background.jpg");
@@ -328,6 +332,15 @@ body {
 }
 
 /* Каталог */
+
+.catalog {
+    display: flex;
+    flex-direction:column;
+}
+
+.select-container {
+    flex-direction: row;
+}
 
 .catalog-text {
     font-size: 30px;
