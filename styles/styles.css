@@ -212,6 +212,9 @@ body {
 
 /* Поиск гостиницы и рассылка */
 
+.search-container {
+    width: 592px;
+}
 .search-title, .distribution-title, .distribution-title-catalog {
     font-size: 30px;
     line-height: 36px;
@@ -233,7 +236,10 @@ body {
     background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
 
+.distribution-container {
+    width: 684px;
 }
 
 .distribution-title, .distribution-text {
