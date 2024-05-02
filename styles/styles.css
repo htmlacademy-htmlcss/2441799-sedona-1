@@ -162,13 +162,17 @@ body {
     background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    padding-top: 51px;
+    padding-right: 371px;
+    padding-bottom: 25px;
+    padding-left: 371px;
 }
 
 .image-welcome {
     display: block;
     margin: 0 auto;
-}
 
+}
 /* Преимущества */
 
 .advantages-cause-list, .advantages-comfot-list {
