@@ -18,6 +18,12 @@ html {
     height: 100%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -102,6 +108,11 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: #000000;
+    padding: 20px 16px;
+}
+
+.navigation-link-user {
+    padding: 22px 12px;
 }
 
 .button-navigation-link {
@@ -120,6 +131,14 @@ body {
     max-width: 88px;
     margin-left: auto;
   }
+
+.navigation-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 
 /*Main*/
 
