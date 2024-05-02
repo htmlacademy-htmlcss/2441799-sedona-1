@@ -36,7 +36,7 @@ body {
     background-color: #FFFFFF;
 }
 
-/*.visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -47,7 +47,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  } */
+  }
 
 /* Кнопки */
 
@@ -95,9 +95,6 @@ body {
     background-color: #F2F2F2;
 }
 
-.button-navigation-link {
-    margin-left: auto;
-}
 
 
 /* Header*/
@@ -144,12 +141,9 @@ body {
     list-style-type: none;
 }
 
-.navigation-list-menu {
-    padding-right: 285px;
-}
 
 .navigation-user {
-    padding-right: ;
+    margin-left: auto;
 }
 
 /*Main*/
