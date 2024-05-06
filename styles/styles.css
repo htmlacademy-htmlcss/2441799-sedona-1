@@ -67,10 +67,18 @@ body {
     line-height: 20px;
 }
 
+.button-navigation-link {
+    padding: 8px 34px;
+}
+
 .button-search, .button-distribution {
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
+}
+
+.button-search {
+    padding: 8px 50px;
 }
 
 .button-navigation-link, .button-search, .button-catalog-details {
@@ -79,6 +87,10 @@ body {
 
 .button-distribution, .filter-button, .button-catalog-favorite {
     background-color: #82B3D3;
+}
+
+.button-distribution {
+    padding: 8px 50px;
 }
 
 .button-catalog-active-favorite {
@@ -179,6 +191,9 @@ body {
     margin-top: 69px;
 }
 
+.advantages-comfort {
+    margin-top: 64px;
+}
 
 .advantages-cause-list, .advantages-comfot-list {
     margin: 0;
@@ -225,17 +240,19 @@ body {
     text-align: center;
 }
 
+.advantages-comfort-text-head {
+    width: 505px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .advantages-cause-text-head {
-    display: flex;
-    justify-content: space-between;
     width: 620px;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .advantages-cause-text {
-    display: flex;
-    justify-content: space-between;
     width: 651px;
     margin: 0 auto;
     margin-bottom: 90px;
@@ -247,6 +264,12 @@ body {
     font-weight: 400;
     text-align: center;
     color: #333333;
+}
+
+.advantages-comfort-text {
+   width: 490px;
+   margin: 0 auto;
+   margin-bottom: 64px;
 }
 
 .advantages-cause-title, .advantages-comfort-title {
