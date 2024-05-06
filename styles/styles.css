@@ -291,6 +291,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .search-text, .distribution-text, .distribution-text-catalog {
@@ -299,6 +301,11 @@ body {
     font-weight: 400;
     text-align: center;
     color: #333333;
+    margin: 0;
+}
+
+.search-text {
+    margin-bottom: 54px;
 }
 
 .distribution {
@@ -306,14 +313,23 @@ body {
     background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    padding: 96px 258px 104px;
 }
 
 .distribution-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 684px;
 }
 
 .distribution-title, .distribution-text {
     color: #FFFFFF;
+}
+
+.distribution-container-text {
+    width: 475px;
+    margin-bottom: 54px;
 }
 
 .distribution-catalog {
