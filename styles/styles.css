@@ -179,22 +179,34 @@ body {
     margin-top: 69px;
 }
 
+
 .advantages-cause-list, .advantages-comfot-list {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .advantages-cause-item, .advantages-comfort-item {
     width: 400px;
 }
 
-
 .white-advantages {
+    display: flex;
     background-color: #82B3D3;
     width: 1200px;
+}
+
+.container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
+    width: 400px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .black-1-advantages {
