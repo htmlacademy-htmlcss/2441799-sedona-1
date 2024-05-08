@@ -567,7 +567,27 @@ body {
 
 /* Пагинация */
 
+
+.slider-pagination-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.slider-pagination-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+
 .slider-pagination-link {
+    display: block;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    padding-top: 11.36px;
+    padding-bottom: 12.64px;
+    border-radius: 4px;
     font-size: 20px;
     line-height: 36px;
     font-weight: 700;
@@ -575,6 +595,11 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #82B3D3;
+}
+
+.pagination-hidden {
+    padding-top: 16.36px;
+    padding-bottom: 17.64px;
 }
 
 .pagination-current {
