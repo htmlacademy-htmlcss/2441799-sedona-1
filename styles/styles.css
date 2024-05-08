@@ -509,7 +509,7 @@ body {
 .catalog {
     display: flex;
     flex-direction:column;
-    padding: 50px 70px 0 70px;
+    padding: 50px 70px 60px 70px;
 }
 
 .catalog-list {
