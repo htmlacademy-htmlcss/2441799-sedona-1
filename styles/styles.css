@@ -122,6 +122,7 @@ body {
     font-weight: 400;
     color: #000000;
     background-color: #F2F2F2;
+    margin: 0;
 }
 
 
@@ -590,8 +591,11 @@ body {
 .catalog-item {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 340px;
     padding: 20px;
+    border-width: 1px;
+    border-color: #E6E6E6;
 }
 
 .catalog-item-text-price {
@@ -639,6 +643,7 @@ body {
 .catalog-item-title {
     font-size: 24px;
     line-height: 28px;
+    margin: 0;
 }
 
 .catalog-item-text, .catalog-item-price, .button-rating {
