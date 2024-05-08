@@ -316,7 +316,7 @@ body {
     display: block;
 }
 
-/* Поиск гостиницы и рассылка */
+/* Поиск гостиницы*/
 
 .search{
     display: flex;
@@ -353,6 +353,8 @@ body {
     margin-bottom: 54px;
 }
 
+/* Рассылка */
+
 .distribution {
     background-image: url("../images/index/subscribe-background.jpg");
     background-color: #3F5E72;
@@ -378,6 +380,7 @@ body {
 }
 
 .distribution-catalog {
+    padding: 96px 258px 104px;
     background-color: #FFFFFF;
 }
 
