@@ -588,7 +588,25 @@ body {
 }
 
 .catalog-item {
+    display: flex;
+    flex-direction: column;
     width: 340px;
+    padding: 20px;
+}
+
+.catalog-item-text-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .select-container {
