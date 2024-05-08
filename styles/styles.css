@@ -140,10 +140,6 @@ body {
     padding-right: 70px;
 }
 
-  .navigation-user {
-    max-width: 88px;
-    margin-left: auto;
-  }
 
 .navigation-list {
     display: flex;
@@ -155,7 +151,12 @@ body {
 
 
 .navigation-user {
+    max-width: 88px;
     margin-left: auto;
+}
+
+.navigation-link-user {
+    padding: 22px 12px;
 }
 
 /*Main*/
@@ -220,16 +221,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 85px;
-    padding-right: 85px;
+}
+
+.container-white-advantages {
+    padding: 102px 85px;
 }
 
 .black-1-advantages {
     background-color: #83B3D31F;
+    padding: 112.5px 85px;
 }
 
 .black-2-advantages {
     background-color: #83B3D333;
+}
+
+.advantages-comfort-item {
+    padding: 81px 85px;
 }
 
 .advantages-cause-text-head, .advantages-comfort-text-head {
@@ -279,11 +287,13 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .advantages-cause-description, .advantages-comfort-description {
   color: #333333;
   text-align: center;
+  margin: 0;
 }
 
 .advantages-cause-description-white, .advantages-cause-title-white {
@@ -370,29 +380,54 @@ body {
 
 /* Footer */
 
-.footer-tel {
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-}
-
 .page-footer-container {
     display: flex;
     width: 1200px;
     margin: 0 auto;
+    padding: 40px 70px 30px;
 }
 
 .footer-social {
-    width: 142px;
     margin-right: 41.5px;
+    max-width: 142px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-social-item {
+    width: 47.33px;
+    height: 40px;
 }
 
 .footer-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 720px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
 }
 
 .dev-logo {
     width: 115px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 8.5px;
+    padding-bottom: 8.6px;
 }
 
 /* Фильтр */
