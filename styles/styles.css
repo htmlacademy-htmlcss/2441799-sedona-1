@@ -108,8 +108,14 @@ body {
     background-color: #7DB54F;
 }
 
+.filter-button {
+    margin-bottom: 32px;
+}
+
 .light-button {
+    margin-bottom: 0;
     background-color: transparent;
+    border: none;
 }
 
 .button-rating {
@@ -447,10 +453,6 @@ body {
 
 /* Фильтр */
 
-.filter-content {
-    width: 1060px;
-    padding: 35px 70px 70px;
-}
 
 .filter {
     color: #FFFFFF;
@@ -458,6 +460,7 @@ body {
     background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    padding: 35px 70px 70px;
 }
 
 .inner-header-title {
@@ -490,7 +493,36 @@ body {
     height: 15px;
 }
 
+.filter-form {
+    display: flex;
+}
+
+.filter-button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-infrastructure, .filter-type, .filter-price  {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.filter-infrastructure {
+    margin-right: 70px;
+}
+
+.filter-type {
+    margin-right: 140.15px;
+}
+
+.filter-price {
+    margin-right: 70px;
+}
+
 .filter-infrastructure-title, .filter-type-title, .filter-price-title {
+    margin-bottom: 32px;
+    padding: 0;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -499,6 +531,37 @@ body {
 .filter-infrastructure-item, .filter-type-item {
     font-size: 18px;
     line-height: 23px;
+}
+
+.filter-infrastructure-item:not(:last-child), .filter-type-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+
+.filter-infrastructure-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.control-input-checkbox {
+   width: 20px;
+   height: 19px;
+   margin: 0;
+
+   border-radius: 4px;
+}
+
+.control-input-radio {
+   width: 20px;
+   height: 20px;
+   margin: 0;
+}
+
+.filter-type-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .from, .to {
