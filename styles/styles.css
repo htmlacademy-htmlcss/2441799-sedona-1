@@ -509,6 +509,7 @@ body {
 .catalog {
     display: flex;
     flex-direction:column;
+    padding: 50px 70px 0 70px;
 }
 
 .catalog-list {
@@ -526,7 +527,7 @@ body {
 
 .select-container {
     display: flex;
-    padding: 50px 70px 40px;
+    margin-bottom: 40px;
 }
 
 .catalog-text {
