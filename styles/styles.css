@@ -390,8 +390,8 @@ body {
 .footer-social {
     margin-right: 41.5px;
     max-width: 142px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .footer-social-list {
@@ -412,8 +412,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 720px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -426,8 +426,8 @@ body {
     margin-left: auto;
     display: flex;
     align-items: center;
-    padding-top: 8.5px;
-    padding-bottom: 8.6px;
+    margin-top: 8.5px;
+    margin-bottom: 8.6px;
 }
 
 /* Фильтр */
