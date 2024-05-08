@@ -93,6 +93,17 @@ body {
     padding: 8px 50px;
 }
 
+.button-light {
+    width: 48px;
+    height: 48px;
+    padding: 17px 16px;
+    margin-right: 8px;
+}
+
+.button-light:last-child {
+    margin-right: 0;
+}
+
 .button-catalog-active-favorite {
     background-color: #7DB54F;
 }
@@ -511,13 +522,18 @@ body {
 }
 
 .select-container {
-    flex-direction: row;
+    display: flex;
+    padding: 50px 70px 40px;
 }
 
 .catalog-text {
+    margin-top: 6.5px;
+    margin-bottom: 6.5px;
+    margin-right: 200px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
+    text-transform: uppercase;
 }
 
 .select-control {
@@ -525,6 +541,11 @@ body {
     font-weight: 400;
     line-height: 21px;
     color: #333333;
+}
+
+.button-light-container {
+    display: flex;
+    margin-left: auto;
 }
 
 .catalog-item-title {
