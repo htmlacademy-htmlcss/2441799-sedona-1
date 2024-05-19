@@ -58,7 +58,6 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     border-radius: 4px;
-    padding: 8px 50px;
 }
 
 .button-navigation-link, .filter-button, .button-catalog-details, .button-catalog-favorite {
@@ -107,7 +106,7 @@ body {
 }
 
 .button-catalog-details {
-    padding: 8px 26px;
+    padding: 8px 20px;
 }
 
 .button-catalog-favorite {
@@ -116,11 +115,11 @@ body {
 
 .button-catalog-active-favorite {
     background-color: #7DB54F;
-    padding: 8px 18px;
 }
 
 .filter-button {
     margin-bottom: 32px;
+    padding: 8px 50px;
 }
 
 .light-button {
@@ -130,10 +129,12 @@ body {
 }
 
 .button-rating {
+    grid-column: 2/3;
     font-weight: 400;
     color: #000000;
     background-color: #F2F2F2;
     margin: 0;
+    padding: 9px 22px 8px 23px;
 }
 
 
@@ -601,10 +602,20 @@ body {
 }
 
 .catalog-item {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    column-gap: 20px;
+    row-gap: 16px;
     width: 340px;
     padding: 20px;
     border-width: 1px;
     border-color: #E6E6E6;
+}
+
+.catalog-image {
+    order: -1;
+    grid-column: 1/-1;
+
 }
 
 .select-container {
@@ -635,6 +646,7 @@ body {
 }
 
 .catalog-item-title {
+    grid-column: 1/-1;
     font-size: 24px;
     line-height: 28px;
     margin: 0;
