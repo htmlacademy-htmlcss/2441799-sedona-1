@@ -617,6 +617,7 @@ body {
 .catalog-image {
     order: -1;
     grid-column: 1/-1;
+    object-fit: contain;
 
 }
 
