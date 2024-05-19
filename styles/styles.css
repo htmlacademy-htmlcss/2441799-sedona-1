@@ -65,6 +65,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    border: none;
 }
 
 .button-navigation-link {
@@ -75,6 +76,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
+    border: none;
 }
 
 .button-search {
@@ -104,8 +106,17 @@ body {
     margin-right: 0;
 }
 
+.button-catalog-details {
+    padding: 8px 26px;
+}
+
+.button-catalog-favorite {
+    padding: 8px 20px;
+}
+
 .button-catalog-active-favorite {
     background-color: #7DB54F;
+    padding: 8px 18px;
 }
 
 .filter-button {
