@@ -92,6 +92,7 @@ body {
 
 .button-distribution {
     padding: 8px 50px;
+    border-radius: 0px 4px 4px 0px;
 }
 
 .button-light {
@@ -411,6 +412,20 @@ body {
     color: #333333;
 }
 
+.distribution-form {
+    display: grid;
+    grid-template-columns: 452px 232px;
+    width: 684px;
+}
+
+.distribution-input {
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #F2F2F2;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+}
 
 /* Footer */
 
