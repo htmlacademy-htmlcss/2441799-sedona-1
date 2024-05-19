@@ -609,7 +609,9 @@ body {
     width: 340px;
     padding: 20px;
     border-width: 1px;
+    border-style: solid;
     border-color: #E6E6E6;
+    border-radius: 4px;
 }
 
 .catalog-image {
@@ -654,6 +656,10 @@ body {
 
 .catalog-item-text, .catalog-item-price, .button-rating {
     color: #333333;
+}
+
+.catalog-item-text, .catalog-item-price {
+    margin: 0;
 }
 
 .catalog-item-price {
