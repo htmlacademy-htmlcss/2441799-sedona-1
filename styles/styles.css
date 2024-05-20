@@ -419,6 +419,8 @@ body {
 }
 
 .distribution-input {
+    width: 452px;
+    height: 52px;
     border: none;
     border-radius: 4px 0px 0px 4px;
     background-color: #F2F2F2;
@@ -596,6 +598,16 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.input-from, .input-to {
+    height: 48px;
+    background-color: #F2F2F2;
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+
 }
 
 /* Каталог */
