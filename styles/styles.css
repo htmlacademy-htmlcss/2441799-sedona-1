@@ -265,6 +265,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container-white-advantages {
@@ -282,6 +283,21 @@ body {
 
 .advantages-comfort-item {
     padding: 81px 85px;
+}
+
+.advantages-food {
+    order: -1;
+    margin-bottom: 31px;
+}
+
+.advantages-present {
+    order: -1;
+    margin-bottom: 28px;
+}
+
+.advantages-house {
+    order: -1;
+    margin-bottom: 30px;
 }
 
 .advantages-cause-text-head, .advantages-comfort-text-head {
