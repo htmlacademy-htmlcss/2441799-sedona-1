@@ -152,6 +152,8 @@ body {
    height: 70px;
    background-repeat: no-repeat;
    margin-right: 28px;
+   margin-bottom: -6px;
+   position: relative;
 }
 
 .navigation-link {
@@ -287,7 +289,7 @@ body {
 
 .advantages-food {
     order: -1;
-    margin-bottom: 31px;
+    margin-bottom: 30px;
 }
 
 .advantages-present {
