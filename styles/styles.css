@@ -111,11 +111,12 @@ body {
 }
 
 .button-catalog-favorite {
-    padding: 8px 20px;
+    padding: 8px 10px;
 }
 
 .button-catalog-active-favorite {
     background-color: #7DB54F;
+    padding: 8px 10px;
 }
 
 .filter-button {
@@ -132,10 +133,12 @@ body {
 .button-rating {
     grid-column: 2/3;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     color: #000000;
     background-color: #F2F2F2;
     margin: 0;
-    padding: 9px 22px 8px 23px;
+    padding: 8px 15px;
 }
 
 
