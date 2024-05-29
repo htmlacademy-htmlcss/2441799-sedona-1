@@ -145,6 +145,15 @@ body {
 
 /* Header*/
 
+.navigation-logo {
+   background-image: url("../images/logo/logo-sedona.svg");
+   background-position: center;
+   width: 140px;
+   height: 70px;
+   background-repeat: no-repeat;
+   margin-right: 28px;
+}
+
 .navigation-link {
     display: block;
     padding: 20px 16px;
