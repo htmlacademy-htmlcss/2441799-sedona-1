@@ -198,10 +198,23 @@ body {
 .navigation-user {
     max-width: 88px;
     margin-left: auto;
+    margin-right: 20px;
 }
 
 .navigation-link-user {
     padding: 22px 12px;
+}
+
+.navigation-link-user-search {
+    background-image: url("../images/icons/icons-search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation-link-user-favorite {
+    background-image: url("../images/icons/icons-heart.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*Main*/
