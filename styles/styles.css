@@ -323,7 +323,6 @@ body {
     right: 16px;
     left: 16px;
     bottom: -1px;
-
 }
 
 .navigation-link-user {
@@ -471,6 +470,7 @@ body {
 
 .black-2-advantages {
     background-color: #83B3D333;
+    padding: 112.5px 85px;
 }
 
 .advantages-comfort-item {
@@ -539,8 +539,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0 27.5px 62px 27.5px;
 }
+
 
 .advantages-cause-description, .advantages-comfort-description {
   color: #333333;
@@ -555,6 +556,29 @@ body {
 .advantages-cause-image {
     display: block;
 }
+
+.advantages-cause-title{
+    position: relative;
+}
+
+.advantages-cause-title-white {
+    position: relative;
+}
+
+.advantages-cause-title::after {
+    content: "";
+    position: absolute;
+    background-color: #0000004D;
+    height: 2px;
+    right: 57.5px;
+    left: 57.5px;
+    bottom: -30px;
+}
+.advantages-cause-title-white::after {
+    background-color: #FFFFFF4D;
+}
+
+
 
 /* Поиск гостиницы*/
 
