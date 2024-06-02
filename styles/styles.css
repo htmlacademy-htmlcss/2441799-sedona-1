@@ -474,6 +474,7 @@ body {
 }
 
 .advantages-comfort-item {
+    justify-content: flex-end;
     padding: 81px 85px;
 }
 
@@ -539,9 +540,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 27.5px 62px 27.5px;
 }
-
 
 .advantages-cause-description, .advantages-comfort-description {
   color: #333333;
@@ -557,7 +556,12 @@ body {
     display: block;
 }
 
-.advantages-cause-title{
+.advantages-comfort-title {
+    margin-bottom: 30px;
+}
+
+.advantages-cause-title {
+    margin: 0 27.5px 62px 27.5px;
     position: relative;
 }
 
@@ -577,6 +581,43 @@ body {
 .advantages-cause-title-white::after {
     background-color: #FFFFFF4D;
 }
+
+.advantages-comfort-item-house {
+    position: relative;
+}
+
+.advantages-comfort-item-food {
+    position: relative;
+}
+
+.advantages-comfort-item-present {
+    position: relative;
+}
+
+.advantages-comfort-item-house::before {
+    content: url("../images/icons/Advantage-icon-house.svg");
+    position: absolute;
+    left: 163.5px;
+    right: 161.5px;
+    top: 81px;
+}
+
+.advantages-comfort-item-food::before {
+    content: url("../images/icons/Advantage-icon-food.svg");
+    position: absolute;
+    left: 163.5px;
+    right: 161.5px;
+    top: 81px;
+}
+
+.advantages-comfort-item-present::before {
+    content: url("../images/icons/Advantage-icon-present.svg");
+    position: absolute;
+    left: 163.5px;
+    right: 161.5px;
+    top: 79px;
+}
+
 
 
 
@@ -666,7 +707,7 @@ body {
     width: 452px;
     height: 52px;
     border: none;
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0 0 4px;
     background-color: #F2F2F2;
     color: #000000;
     font-size: 18px;
