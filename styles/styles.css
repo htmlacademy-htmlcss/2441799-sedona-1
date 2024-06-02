@@ -922,6 +922,10 @@ body {
     outline: none;
 }
 
+.select-control:disabled {
+    border-color: #0000004D;
+    color: #0000004D;
+}
 
 .button-light-container {
     display: flex;
