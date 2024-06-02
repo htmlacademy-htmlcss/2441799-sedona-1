@@ -164,6 +164,20 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: #000000;
+}
+
+.navigation-link-current {
+    position: relative;
+}
+
+.navigation-link-current::after {
+    content: "";
+    position: absolute;
+    background-color: #756257;
+    height: 2px;
+    right: 16px;
+    left: 16px;
+    bottom: -1px;
 
 }
 
