@@ -86,9 +86,113 @@ body {
     background-color: #756157;
 }
 
+.button-navigation-link:hover {
+    background-color: #615048;
+}
+
+.button-navigation-link:focus {
+    background-color: #615048;
+}
+
+.button-navigation-link:active {
+   background-color: #756157;
+   color: #FFFFFF4D;
+}
+
+.button-navigation-link:disabled {
+    background-color: #E5E5E5;
+}
+
+.button-search:hover {
+    background-color: #615048;
+}
+
+.button-search:focus {
+    background-color: #615048;
+}
+
+.button-search:active {
+    background-color: #756157;
+    color: #FFFFFF4D;
+ }
+
+ .button-search:disabled {
+     background-color: #E5E5E5;
+ }
+
+.button-catalog-details:hover {
+    background-color: #615048;
+}
+
+.button-catalog-details:focus {
+    background-color: #615048;
+}
+
+.button-catalog-details:active {
+    background-color: #756157;
+    color: #FFFFFF4D;
+ }
+
+ .button-catalog-details:disabled {
+     background-color: #E5E5E5;
+ }
+
+
 .button-distribution, .filter-button, .button-catalog-favorite {
     background-color: #82B3D3;
 }
+
+.button-distribution:hover {
+    background-color: #68A2CA;
+}
+
+.button-distribution:focus {
+    background-color: #68A2CA;
+}
+
+.button-distribution:active {
+    background-color: #82B3D3;
+    color: #FFFFFF4D;
+}
+
+.button-distribution:disabled {
+    background-color: #E5E5E5;
+}
+
+.filter-button:hover {
+    background-color: #68A2CA;
+}
+
+.filter-button:focus {
+    background-color: #68A2CA;
+}
+
+.filter-button:active {
+    background-color: #82B3D3;
+    color: #FFFFFF4D;
+}
+
+.filter-button:disabled {
+    background-color: #E5E5E5;
+}
+
+.button-catalog-favorite:hover {
+    background-color: #68A2CA;
+}
+
+.button-catalog-favorite:focus {
+    background-color: #68A2CA;
+}
+
+.button-catalog-favorite:active {
+    background-color: #82B3D3;
+    color: #FFFFFF4D;
+}
+
+.button-catalog-favorite:disabled {
+    background-color: #E5E5E5;
+}
+
 
 .button-distribution {
     padding: 8px 50px;
@@ -118,6 +222,24 @@ body {
     background-color: #7DB54F;
     padding: 8px 10px;
 }
+
+.button-catalog-active-favorite:hover {
+    background-color: #6C9E42;
+}
+
+.button-catalog-active-favorite:focus {
+    background-color: #6C9E42;
+}
+
+.button-catalog-active-favorite:active {
+    background-color: #7DB54F;
+    color: #FFFFFF4D;
+}
+
+.button-catalog-active-favorite:disabled {
+    background-color: #E5E5E5;
+}
+
 
 .filter-button {
     margin-bottom: 32px;
