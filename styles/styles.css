@@ -1006,8 +1006,13 @@ body {
     margin-right: 140.15px;
 }
 
-.filter-price {
+.filter-price-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    gap: 2px;
     margin-right: 70px;
+    max-width: 288px;
 }
 
 .filter-infrastructure-title, .filter-type-title, .filter-price-title {
@@ -1054,20 +1059,27 @@ body {
     margin: 0;
 }
 
-.from, .to {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
+.from,
+.to {
+    margin: 0;
 }
 
 .input-from, .input-to {
     height: 48px;
     background-color: #F2F2F2;
-    font-family: "PT Sans";
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
+    border: 0;
+    padding: 12px 20px;
+}
 
+.input-from {
+    border-radius: 4px 0 0 4px;
+}
+
+.input-to {
+    border-radius: 0 4px 4px 0;
 }
 
 /* Каталог */
