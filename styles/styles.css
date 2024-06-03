@@ -822,6 +822,18 @@ body {
     color: #000000;
 }
 
+.footer-tel:hover {
+   color: #756157;
+}
+
+.footer-tel:focus {
+    color: #756157;
+ }
+
+ .footer-tel:active {
+    color: #7561574D;
+ }
+
 .dev-logo {
     width: 115px;
     margin-left: auto;
