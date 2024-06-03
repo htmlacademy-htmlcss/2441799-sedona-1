@@ -835,12 +835,30 @@ body {
  }
 
 .dev-logo {
+    position: relative;
     width: 115px;
     margin-left: auto;
     display: flex;
     align-items: center;
     margin-top: 8.5px;
     margin-bottom: 8.6px;
+}
+
+.icon-dev-logo {
+    position: absolute;
+    fill: #000000;
+}
+
+.icon-dev-logo:hover {
+    fill: #756157;
+}
+
+.icon-dev-logo:focus {
+    fill: #756157;
+}
+
+.icon-dev-logo:active {
+    fill: #7561574D;
 }
 
 /* Фильтр */
