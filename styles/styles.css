@@ -890,6 +890,7 @@ body {
 }
 
 .breadcrumbs-link {
+    position: relative;
     margin-right: 10px;
     font-size: 16px;
     line-height: 21px;
@@ -898,24 +899,54 @@ body {
     color: #FFFFFF;
 }
 
-.breadcrumbs-link-home {
-    width: 13px;
-    height: 15px;
-    Padding: 5px 0.8px;
-    background-image: url("../images/icons/icons-home.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.breadcrumbs-item {
+    position: relative;
+}
 
+.icon-breadcrumbs-link-home {
+    position: absolute;
+    display: block;
+    fill: #FFFFFF;
+    left: 0.5px;
+    top: 1.5px;
+}
+
+.icon-breadcrumbs-link-home:hover {
+    fill: #FFFFFF99;
+}
+
+.icon-breadcrumbs-link-home:focus {
+    fill: #FFFFFF;
+}
+
+.icon-breadcrumbs-link-home:active {
+    fill: #FFFFFF4D;
+}
+
+.breadcrumbs-item:not(:last-child) {
+    margin-right: 28.5px;
+}
+
+.breadcrumbs-link:hover {
+    color: #FFFFFF99;
+}
+
+.breadcrumbs-link:focus {
+    color: #FFFFFF;
+}
+
+.breadcrumbs-link:active {
+    color: #FFFFFF4D;
 }
 
 .breadcrumbs-item:not(:last-child)::after {
-    content: "";
+    position: absolute;
+    content: url("../images/icons/icons-breadcrumbs.svg");
     width: 8px;
     height: 20px;
-    background-image: url("../images/icons/icons-breadcrumbs.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 10px;
+    left: 23px;
+    top: 0.5px;
 }
 
 .filter-form {
