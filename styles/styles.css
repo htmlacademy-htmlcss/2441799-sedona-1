@@ -1142,6 +1142,18 @@ body {
     text-align: right;
 }
 
+.star-4-container {
+    background-image: url("../images/icons/star-4.svg");
+}
+
+.star-3-container {
+    background-image: url("../images/icons/star-3.svg");
+}
+
+.star-2-container {
+    background-image: url("../images/icons/star-2.svg");
+}
+
 /* Пагинация */
 
 
