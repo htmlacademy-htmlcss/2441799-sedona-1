@@ -512,20 +512,6 @@ body {
     padding: 81px 85px;
 }
 
-.advantages-food {
-    order: -1;
-    margin-bottom: 30px;
-}
-
-.advantages-present {
-    order: -1;
-    margin-bottom: 28px;
-}
-
-.advantages-house {
-    order: -1;
-    margin-bottom: 30px;
-}
 
 .advantages-cause-text-head, .advantages-comfort-text-head {
     font-size: 30px;
@@ -574,6 +560,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    margin: 0 27.5px 30px 27.5px;
+    padding-bottom: 30px;
 }
 
 .advantages-cause-description, .advantages-comfort-description {
@@ -590,27 +578,19 @@ body {
     display: block;
 }
 
-.advantages-comfort-title {
-    margin-bottom: 30px;
-}
-
 .advantages-cause-title {
-    margin: 0 27.5px 62px 27.5px;
-    position: relative;
-}
-
-.advantages-cause-title-white {
     position: relative;
 }
 
 .advantages-cause-title::after {
     content: "";
     position: absolute;
+    display: block;
     background-color: #0000004D;
     height: 2px;
-    right: 57.5px;
     left: 57.5px;
-    bottom: -30px;
+    right: 57.5px;
+    bottom: 0;
 }
 .advantages-cause-title-white::after {
     background-color: #FFFFFF4D;
@@ -1076,7 +1056,7 @@ body {
 
 .input-from:active {
     background-color: #F2F2F2;
-    border: 2px solid #000000;
+    outline: 2px solid #000000;
 }
 
 .input-to:hover {
