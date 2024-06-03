@@ -1133,6 +1133,7 @@ body {
     border-radius: 4px;
     padding: 12px 20px;
     padding-right: 40px;
+    margin-right: 70px;
     background-image: url("../images/icons/arrow.svg");
     background-repeat: no-repeat;
     background-position: right 20px center;
@@ -1150,6 +1151,10 @@ body {
 .select-control:disabled {
     border-color: #0000004D;
     color: #0000004D;
+}
+
+.select-control option {
+    padding: 0;
 }
 
 .button-light-container {
