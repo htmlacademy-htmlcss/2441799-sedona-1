@@ -196,7 +196,7 @@ body {
 
 .button-distribution {
     padding: 8px 50px;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 0 4px 4px 0;
 }
 
 .button-light {
@@ -738,9 +738,74 @@ body {
     list-style-type: none;
 }
 
-.footer-social-item {
+
+.button-social {
+    position: relative;
+    display: block;
+    padding: 11.15px 11.67px;
     width: 47.33px;
     height: 40px;
+}
+
+
+.icon-social-vk {
+    position: absolute;
+    top: 13px;
+    right: 11.67px;
+    margin: auto;
+    fill: #83B3D3;
+}
+
+.icon-social-vk:hover {
+    fill: #68A2CA;
+}
+
+.icon-social-vk:focus {
+    fill: #68A2CA;
+}
+
+.icon-social-vk:active {
+    fill: #68A2CA4D;
+}
+
+.icon-social-telegram {
+    position: absolute;
+    top: 12px;
+    right: 14.67px;
+    margin: 0 auto;
+    fill: #83B3D3;
+}
+
+.icon-social-telegram:hover {
+    fill: #68A2CA;
+}
+
+.icon-social-telegram:focus {
+    fill: #68A2CA;
+}
+
+.icon-social-telegram:active {
+    fill: #68A2CA4D;
+}
+
+.icon-social-youtube {
+    position: absolute;
+    top: 11.5px;
+    right: 12.67px;
+    margin: auto;
+    fill: #83B3D3;
+}
+
+.icon-social-youtube:hover {
+    fill: #68A2CA;
+}
+
+.icon-social-youtube:focus {
+    fill: #68A2CA;
+}
+
+.icon-social-youtube:active {
+    fill: #68A2CA4D;
 }
 
 .footer-tel {
