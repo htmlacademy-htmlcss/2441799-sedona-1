@@ -1002,13 +1002,14 @@ body {
     margin-right: 70px;
 }
 
-.filter-type {
-    margin-right: 140.15px;
+
+
+.filter-price {
+    margin-left: auto;
 }
 
 .filter-price-container {
     display: grid;
-    justify-content: space-between;
     grid-template-columns: auto auto;
     gap: 2px;
     margin-right: 70px;
