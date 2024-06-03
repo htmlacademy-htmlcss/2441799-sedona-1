@@ -202,12 +202,46 @@ body {
 .button-light {
     width: 48px;
     height: 48px;
-    padding: 17px 16px;
+    padding: 15px 14px;
     margin-right: 8px;
 }
 
 .button-light:last-child {
     margin-right: 0;
+}
+
+.button-light:hover {
+    border-color: #000000;
+}
+
+.button-light:focus {
+    border-color: #68A2CA;
+}
+
+.button-light:active {
+    border-color: #000000;
+}
+
+.button-light-cards {
+    background-image: url("../images/icons/icons-view-cards.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000000;
+}
+
+
+.button-light-fully {
+    background-image: url("../images/icons/icons-view-fully.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #E5E5E5;
+}
+
+.button-light-list {
+    background-image: url("../images/icons/icons-view-list.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #E5E5E5;
 }
 
 .button-catalog-details {
