@@ -1003,7 +1003,6 @@ body {
 }
 
 
-
 .filter-price {
     margin-left: auto;
 }
@@ -1064,6 +1063,37 @@ body {
 .to {
     margin: 0;
 }
+
+.input-from:hover {
+    background-color: #E6E6E6;
+}
+
+.input-from:focus-visible {
+    background-color: #E6E6E6;
+    border: 3px solid #83B3D3;
+    outline: none;
+}
+
+.input-from:active {
+    background-color: #F2F2F2;
+    border: 2px solid #000000;
+}
+
+.input-to:hover {
+    background-color: #E6E6E6;
+}
+
+.input-to:focus-visible {
+    background-color: #E6E6E6;
+    border: 3px solid #83B3D3;
+    outline: none;
+}
+
+.input-to:active {
+    background-color: #F2F2F2;
+    border: 2px solid #000000;
+}
+
 
 .input-from, .input-to {
     height: 48px;
