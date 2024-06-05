@@ -1037,8 +1037,7 @@ body {
 
 .input-from:focus-visible {
     background-color: #E6E6E6;
-    border: 3px solid #83B3D3;
-    outline: none;
+    outline: 3px solid #83B3D3;
 }
 
 .input-from:active {
@@ -1052,13 +1051,12 @@ body {
 
 .input-to:focus-visible {
     background-color: #E6E6E6;
-    border: 3px solid #83B3D3;
-    outline: none;
+    outline: 3px solid #83B3D3;
 }
 
 .input-to:active {
     background-color: #F2F2F2;
-    border: 2px solid #000000;
+    outline: 2px solid #000000;
 }
 
 
