@@ -560,6 +560,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .advantages-cause-description, .advantages-comfort-description {
@@ -578,13 +579,11 @@ body {
 
 .advantages-cause-title {
     position: relative;
-    margin: 0 27.5px 30px 27.5px;
+    padding-right: 27.5px;
+    padding-left: 27.5px;
     padding-bottom: 30px;
 }
 
-.advantages-comfort-title {
-    padding-bottom: 30px;
-}
 
 .advantages-cause-title::after {
     content: "";
