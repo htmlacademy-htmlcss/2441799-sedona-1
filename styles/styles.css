@@ -891,8 +891,8 @@ body {
 }
 
 .breadcrumbs-link {
+    display: flex;
     position: relative;
-    margin-right: 10px;
     font-size: 16px;
     line-height: 21px;
     font-weight: 400;
@@ -901,12 +901,13 @@ body {
 }
 
 .breadcrumbs-item {
+    display: flex;
     position: relative;
+    align-items: center;
+    padding-right: 18.5px;
 }
 
 .icon-breadcrumbs-link-home {
-    position: absolute;
-    display: block;
     fill: #FFFFFF;
     left: 0.5px;
     top: 1.5px;
@@ -925,7 +926,7 @@ body {
 }
 
 .breadcrumbs-item:not(:last-child) {
-    margin-right: 28.5px;
+    margin-right: 10.8px;
 }
 
 .breadcrumbs-link:hover {
@@ -946,7 +947,7 @@ body {
     width: 8px;
     height: 20px;
     background-repeat: no-repeat;
-    left: 23px;
+    right: 0;
     top: 0.5px;
 }
 
