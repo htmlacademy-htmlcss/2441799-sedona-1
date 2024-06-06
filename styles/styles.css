@@ -67,9 +67,6 @@ body {
     border: none;
 }
 
-.button-navigation-link {
-    padding: 8px 34px;
-}
 
 .button-search, .button-distribution {
     font-weight: 700;
@@ -338,7 +335,6 @@ body {
 .navigation-link {
     display: block;
     padding: 20px 16px;
-    font-size: 20px;
     line-height: 24px;
     font-weight: 700;
     text-decoration: none;
@@ -367,10 +363,12 @@ body {
 
 .button-navigation-link {
     color: #FFFFFF;
+    padding: 8px 34px;
 }
 
 .navigation {
     display: flex;
+    align-items: center;
     width: 1200px;
     margin: 0 auto;
     padding-left: 70px;
@@ -384,6 +382,7 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    font-size: 20px;
 }
 
 
@@ -486,7 +485,6 @@ body {
 
 .container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
     width: 400px;
-    height: 385px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -508,7 +506,7 @@ body {
 }
 
 .advantages-comfort-item {
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 81px 85px;
 }
 
