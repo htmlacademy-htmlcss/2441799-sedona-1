@@ -446,7 +446,15 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     padding-top: 51px;
-    padding-bottom: 25px;
+    padding-bottom: 82px;
+    position: relative;
+}
+
+.hero::after {
+    content: url("../images/index/hero-divider.svg");
+    position: absolute;
+    top: 428px;
+
 }
 
 .image-welcome {
