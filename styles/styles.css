@@ -573,6 +573,9 @@ body {
 
 .advantages-cause-image {
     display: block;
+    max-width: 800px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .advantages-cause-title {
