@@ -344,6 +344,7 @@ body {
 
 .navigation-link-current {
     position: relative;
+    z-index: 1;
 }
 
 .navigation-link-current::after {
