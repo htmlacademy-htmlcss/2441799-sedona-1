@@ -455,7 +455,8 @@ body {
 .hero::after {
     content: url("../images/index/hero-divider.svg");
     position: absolute;
-    top: 428px;
+    bottom: -5px;
+    z-index: 1;
 }
 
 .image-welcome {
