@@ -982,14 +982,15 @@ body {
 
 .filter-price {
     margin-left: auto;
+    margin-right: 70px;
 }
 
 .filter-price-container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-between;
     gap: 2px;
-    margin-right: 70px;
-    max-width: 288px;
+    margin-bottom: 36px;
 }
 
 .filter-infrastructure-title, .filter-type-title, .filter-price-title {
@@ -1036,10 +1037,6 @@ body {
     margin: 0;
 }
 
-.from,
-.to {
-    margin: 0;
-}
 
 .input-from:hover {
     background-color: #E6E6E6;
@@ -1086,6 +1083,32 @@ body {
 
 .input-to {
     border-radius: 0 4px 4px 0;
+}
+
+/* Регулировка цены */
+
+.range-scale {
+    position: relative;
+    width: 287px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    border-radius: 4px
+}
+
+.range-bar {
+    position: absolute;
+    height: 4px;
+    background-color: #FFFFFF;
+}
+
+.range-toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Каталог */
