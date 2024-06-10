@@ -330,6 +330,7 @@ body {
    margin-right: 28px;
    margin-bottom: -6px;
    position: relative;
+   z-index: 1;
 }
 
 .navigation-link {
@@ -454,7 +455,6 @@ body {
     content: url("../images/index/hero-divider.svg");
     position: absolute;
     top: 428px;
-
 }
 
 .image-welcome {
