@@ -1130,12 +1130,12 @@ body {
 
 .toggle-min {
     top: -8px;
-    left: -10px;
+    left: 0px;
 }
 
 .toggle-max {
     top: -8px;
-    right: -10px;
+    right: 0px;
 }
 
 /* Каталог */
