@@ -1294,14 +1294,12 @@ body {
 
 .slider-pagination-link-blue:hover {
     background-color: #68A2CA;
-    border: 1px solid #82B3D3;
-    padding: 9px 17px 10px 17px;
+    outline: 1px solid #82B3D3;
 }
 
 .slider-pagination-link-blue:focus {
     background-color: #68A2CA;
-    border: 1px solid #82B3D3;
-    padding: 9px 17px 10px 17px;
+    outline: 1px solid #82B3D3;
 }
 
 .slider-pagination-link-blue:active {
