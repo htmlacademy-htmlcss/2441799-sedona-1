@@ -744,6 +744,10 @@ body {
     outline: none;
 }
 
+.field::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
 /* Footer */
 
 .page-footer-container {
