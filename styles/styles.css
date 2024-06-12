@@ -740,7 +740,7 @@ body {
 .field:active {
     background-color: #F2F2F2;
     color: #000000;
-    outline: 2px solid #000000;
+    box-shadow: inset 0 0 0 2px #000000;
 }
 
 /* Footer */
@@ -1061,28 +1061,30 @@ body {
     background-color: #E6E6E6;
 }
 
-.input-from:focus-visible {
+.input-from:focus {
     background-color: #E6E6E6;
     outline: 3px solid #83B3D3;
 }
 
 .input-from:active {
     background-color: #F2F2F2;
-    outline: 2px solid #000000;
+    box-shadow: inset 0 0 0 2px #000000;
+    outline: none;
 }
 
 .input-to:hover {
     background-color: #E6E6E6;
 }
 
-.input-to:focus-visible {
+.input-to:focus {
     background-color: #E6E6E6;
     outline: 3px solid #83B3D3;
 }
 
 .input-to:active {
     background-color: #F2F2F2;
-    outline: 2px solid #000000;
+    box-shadow: inset 0 0 0 2px #000000;
+    outline: none;
 }
 
 
