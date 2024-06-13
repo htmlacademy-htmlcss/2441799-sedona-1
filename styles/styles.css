@@ -1307,6 +1307,7 @@ body {
 }
 
 .select-control {
+    min-width: 292px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
