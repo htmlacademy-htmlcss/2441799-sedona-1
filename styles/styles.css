@@ -1064,11 +1064,45 @@ body {
     margin: 0;
 }
 
+.control {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+}
+
+.control-mark-checkbox {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    left: 0;
+}
+
+.control:hover,
+.control:hover .control-mark-checkbox {
+    opacity: 0.6;
+}
+
+.control:focus .control-mark-checkbox {
+    border: 3px solid #83B3D3;
+}
+
+.control:active,
+.control:active .control-mark-checkbox {
+    opacity: 0.3;
+}
+
+.control-input-checkbox[type="checkbox"]:checked + .control-mark-checkbox {
+    background-image: url("../images/icons/icons-tick.svg");
+    background-position: center;
+}
+
 .control-input-checkbox {
    width: 20px;
    height: 19px;
    margin: 0;
-
    border-radius: 4px;
 }
 
