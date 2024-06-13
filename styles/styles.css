@@ -1071,7 +1071,7 @@ body {
     padding-left: 36px;
 }
 
-.control-mark-checkbox {
+.control-mark {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1081,22 +1081,37 @@ body {
 }
 
 .control:hover,
-.control:hover .control-mark-checkbox {
+.control:hover .control-mark {
     opacity: 0.6;
 }
 
-.control:focus .control-mark-checkbox {
+.control:focus .control-mark {
     border: 3px solid #83B3D3;
 }
 
 .control:active,
-.control:active .control-mark-checkbox {
+.control:active .control-mark {
     opacity: 0.3;
 }
 
-.control-input-checkbox[type="checkbox"]:checked + .control-mark-checkbox {
+.control-input-checkbox[type="checkbox"]:checked + .control-mark {
     background-image: url("../images/icons/icons-tick.svg");
     background-position: center;
+}
+
+.control-input[type="radio"] + .control-mark {
+    border-radius: 50%;
+  }
+
+.control-input[type="radio"]:checked + .control-mark::before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #3F5E72;
+    border-radius: 50%;
+    content: "";
 }
 
 .control-input-checkbox {
