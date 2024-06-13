@@ -273,7 +273,6 @@ body {
 
 
 .filter-button {
-    margin-bottom: 32px;
     padding: 8px 50px;
 }
 
@@ -992,6 +991,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    gap: 32px;
+    padding-top: 56px;
 }
 
 .filter-infrastructure, .filter-type, .filter-price  {
