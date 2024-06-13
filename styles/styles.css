@@ -1500,3 +1500,43 @@ body {
     border-radius: 10px;
     padding: 18px 256px;
   }
+
+  .search-form {
+    display: grid;
+    gap: 48px;
+  }
+
+  .search-label,
+  .family-text {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .family {
+    display: flex;
+    justify-content: space-between;
+    gap: 88px;
+  }
+
+  .adult,
+  .children {
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+  }
+
+  .button-family {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+  }
+
+  .button-minus,
+  .button-plus {
+    width: 40px;
+    height: 40px;
+    padding: 17px 13px;
+    border: none;
+  }
