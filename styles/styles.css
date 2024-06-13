@@ -1011,10 +1011,33 @@ body {
 }
 
 .filter-price-container {
-    display: grid;
-    grid-template-columns: min-content min-content;
-    gap: 2px;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 36px;
+    width: 288px;
+}
+
+.from-container {
+    position: relative;
+}
+
+.to-container {
+    position: relative;
+
+}
+
+.from {
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.to {
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 20px;
+    top: 12px;
 }
 
 .filter-infrastructure-title, .filter-type-title, .filter-price-title {
@@ -1061,6 +1084,17 @@ body {
     margin: 0;
 }
 
+.input-from, .input-to {
+    height: 48px;
+    background-color: #F2F2F2;
+    width: 143px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    border: 0;
+    padding: 12px 20px;
+}
 
 .input-from:hover {
     background-color: #E6E6E6;
@@ -1075,6 +1109,10 @@ body {
     background-color: #F2F2F2;
     box-shadow: inset 0 0 0 2px #000000;
     outline: none;
+}
+
+.input-from::placeholder {
+    color: #000000;
 }
 
 .input-to:hover {
@@ -1092,15 +1130,8 @@ body {
     outline: none;
 }
 
-
-.input-from, .input-to {
-    height: 48px;
-    background-color: #F2F2F2;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 700;
-    border: 0;
-    padding: 12px 20px;
+.input-to::placeholder {
+    color: #000000;
 }
 
 .input-from {
@@ -1110,6 +1141,16 @@ body {
 .input-to {
     border-radius: 0 4px 4px 0;
 }
+
+.input-from::-webkit-outer-spin-button,
+.input-from::-webkit-inner-spin-button,
+.input-to::-webkit-outer-spin-button,
+.input-to::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+
 
 /* Регулировка цены */
 

@@ -122,12 +122,15 @@
             <fieldset class="filter-price">
               <legend class="filter-price-title">Стоимость, ₽:</legend>
               <div class="filter-price-container">
-                <label class="from">
-                  <input class="input-from" type="number" name="price-from" value="0" min="0" max="9000" placeholder="0">
-                </label>
-                <label class="to">
-                  <input class="input-to" type="number" name="price-to" value="9000" min="0" max="9000" placeholder="9000">
-                </label>
+                <div class="from-container">
+                  <label class="from" for="from">от</label>
+                  <input class="input-from" type="number" name="price-from" id="from" value="0" min="0" max="9000" placeholder="0">
+                </div>
+                <div class="to-container">
+                  <label class="to" for="to">до</label>
+                  <input class="input-to" type="number" name="price-to" if="to" value="9000" min="0" max="9000" placeholder="9000">
+                </div>
+
               </div>
 
               <div class="range">
