@@ -185,7 +185,7 @@
       </div>
     </footer>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-search">
         <button type="button" class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -194,32 +194,40 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
 
-            <p class="date-entry">
-              <label class="search-label" for="date-entry">Дата Заезда:</label>
-              <input class="search-input" type="text" name="date-entry" id="date-entry" placeholder="27 апреля 2020">
-            </p>
+            <div class="date-entry">
+              <label class="date-label" for="date-entry">Дата Заезда:</label>
+              <div class="date-input-container">
+                <input class="date-input" type="text" name="date-entry" id="date-entry" placeholder="27 апреля 2020">
+                <button type="button" class="button-date"></button>
+              </div>
+              <span class="search-text-error">Мы не можем отправить вас в прошлое.</span>
+            </div>
 
-            <p class="date-departure">
-              <label class="search-label" for="date-departure">Дата Выезда:</label>
-              <input class="search-input" type="text" name="date-departure" id="date-departure" placeholder="1 сентября 2023">
-            </p>
+            <div class="date-departure">
+              <label class="date-label" for="date-departure">Дата Выезда:</label>
+              <div class="date-input-container">
+                <input class="date-input" type="text" name="date-departure" id="date-departure" placeholder="1 сентября 2023">
+                <button type="button" class="button-date"></button>
+              </div>
+              <span class="search-text-not-error">На эти даты есть свободные номера. Пока есть.</span>
+
+            </div>
 
             <div class="family">
-
               <div class="adult">
-                <p class="family-text">Взрослые:</p>
+                <label class="family-label" for="number-adult">Взрослые:</label>
                 <div class="button-family">
                   <button type="button" class="button-minus"></button>
-                  <span class="number-family">2</span>
+                  <input class="input-number" type="number" name="number-adult" id="number-adult" placeholder="2">
                   <button type="button" class="button-plus"></button>
                 </div>
               </div>
 
               <div class="children">
-                <p class="family-text">Дети:</p>
+                <label class="family-label" for="number-children">Дети:</label>
                 <div class="button-family">
                   <button type="button" class="button-minus"></button>
-                  <span class="number-family">2</span>
+                  <input class="input-number" type="number" name="number-children" id="number-children" placeholder="2">
                   <button type="button" class="button-plus"></button>
                 </div>
               </div>
