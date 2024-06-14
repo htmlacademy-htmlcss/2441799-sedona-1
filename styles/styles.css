@@ -1511,6 +1511,12 @@ body {
     line-height: 24px;
     font-weight: 700;
     color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .search-label {
+    padding-right: 18px;
   }
 
   .family {
@@ -1538,4 +1544,8 @@ body {
     height: 40px;
     padding: 17px 13px;
     border: none;
+  }
+
+  .search-form p {
+    margin: 0;
   }
