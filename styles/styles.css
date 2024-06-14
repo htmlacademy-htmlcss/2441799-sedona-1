@@ -1288,7 +1288,6 @@ body {
 
 .catalog-image {
     order: -1;
-    grid-column: 1/-1;
     object-fit: contain;
 
 }
@@ -1443,7 +1442,7 @@ body {
     font-weight: 400;
 }
 
-/* Модальное окно
+/* Модальное окно */
 
 .modal-container {
     position: fixed;
@@ -1540,4 +1539,3 @@ body {
     padding: 17px 13px;
     border: none;
   }
-  */
