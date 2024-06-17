@@ -189,6 +189,9 @@
       <div class="modal modal-search">
         <button type="button" class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
+          <svg aria-hidden="true" class="cross-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z" fill="black"/>
+          </svg>
         </button>
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
@@ -198,7 +201,15 @@
               <label class="date-label" for="date-entry">Дата Заезда:</label>
               <div class="date-input-container">
                 <input class="date-input" type="text" name="date-entry" id="date-entry" placeholder="27 апреля 2020">
-                <button type="button" class="button-date"></button>
+                <button type="button" class="button-date">
+                  <svg aria-hidden="true" class="date-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                    <g fill="#000" opacity=".3">
+                      <path d="M7.75 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z"/>
+                      <path d="M17 4h-2V2h-1v2H6V2H5v2H3c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V5c0-.6-.5-1-1-1Zm0 12H3V9h14v7ZM3 8V5h2v2h1V5h8v2h1V5h2v3H3Z"/>
+                      <path d="M10 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM12.25 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM7.75 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM5.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM5.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM10 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM12.25 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM14.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM14.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"/>
+                    </g>
+                  </svg>
+                </button>
               </div>
               <span class="search-text-error">Мы не можем отправить вас в прошлое.</span>
             </div>
@@ -207,7 +218,15 @@
               <label class="date-label" for="date-departure">Дата Выезда:</label>
               <div class="date-input-container">
                 <input class="date-input" type="text" name="date-departure" id="date-departure" placeholder="1 сентября 2023">
-                <button type="button" class="button-date"></button>
+                <button type="button" class="button-date">
+                  <svg aria-hidden="true" class="date-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                    <g fill="#000" opacity=".3">
+                      <path d="M7.75 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z"/>
+                      <path d="M17 4h-2V2h-1v2H6V2H5v2H3c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V5c0-.6-.5-1-1-1Zm0 12H3V9h14v7ZM3 8V5h2v2h1V5h8v2h1V5h2v3H3Z"/>
+                      <path d="M10 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM12.25 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM7.75 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM5.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM5.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM10 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM12.25 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM14.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM14.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"/>
+                    </g>
+                  </svg>
+                </button>
               </div>
               <span class="search-text-not-error">На эти даты есть свободные номера. Пока есть.</span>
 
@@ -217,18 +236,34 @@
               <div class="adult">
                 <label class="family-label" for="number-adult">Взрослые:</label>
                 <div class="button-family">
-                  <button type="button" class="button-minus"></button>
+                  <button type="button" class="button-minus">
+                    <svg aria-hidden="true" class="minus-icon" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="#756157" fill-opacity="0.3"/>
+                      </svg>
+                  </button>
                   <input class="input-number" type="number" name="number-adult" id="number-adult" placeholder="2">
-                  <button type="button" class="button-plus"></button>
+                  <button type="button" class="button-plus">
+                    <svg aria-hidden="true" class="plus-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="#756157" fill-opacity="0.3"/>
+                      </svg>
+                  </button>
                 </div>
               </div>
 
               <div class="children">
                 <label class="family-label" for="number-children">Дети:</label>
                 <div class="button-family">
-                  <button type="button" class="button-minus"></button>
+                  <button type="button" class="button-minus">
+                    <svg aria-hidden="true" class="minus-icon" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="#756157" fill-opacity="0.3"/>
+                      </svg>
+                  </button>
                   <input class="input-number" type="number" name="number-children" id="number-children" placeholder="2">
-                  <button type="button" class="button-plus"></button>
+                  <button type="button" class="button-plus">
+                    <svg aria-hidden="true" class="plus-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="#756157" fill-opacity="0.3"/>
+                      </svg>
+                  </button>
                 </div>
               </div>
 

@@ -1471,6 +1471,9 @@ body {
 }
 
 .modal-close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 64px;
     right: 52px;
@@ -1478,12 +1481,27 @@ body {
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background-color: rgba(242, 242, 242, 1);
+    background-color: #F2F2F2;
     border: none;
-    background-image: url("../images/icons/icons-cross.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     cursor: pointer;
+}
+
+.modal-close-button:hover {
+    background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+    background-color: #E6E6E6;
+    border: 3px solid #83B3D3;
+}
+
+.modal-close-button:active {
+    background-color: #E6E6E6;
+    border: none;
+}
+
+.modal-close-button:active > .cross-icon {
+    opacity: 0.3;
 }
 
 .modal-title {
@@ -1511,9 +1529,37 @@ body {
     gap: 48px;
   }
 
-  .date-entry {
+  .date-entry,
+  .date-departure {
     display: grid;
+    grid-template-columns: 137px 1fr;
+    justify-items: stretch;
+    align-items: stretch;
   }
+
+  .date-input-container {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+  }
+
+  .date-input {
+    flex-grow: 1;
+    padding: 12px 60px 12px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .date-input::placeholder {
+    font-family: "PT Sans";
+    color: #000000;
+  }
+
 
   .date-label,
   .family-label {
@@ -1531,6 +1577,42 @@ body {
 
   .dates {
     display: grid;
+  }
+
+  .search-text-error,
+  .search-text-not-error {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .search-text-error {
+    color: #FF5757;
+  }
+
+  .search-text-not-error {
+    color: #333333;
+  }
+
+  .button-date {
+    position: absolute;
+    right: 22px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    padding: 2px 2px 3px 2px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .date-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: rgba(242, 242, 242, 1);
   }
 
   .family {
@@ -1554,22 +1636,48 @@ body {
 
   .button-minus,
   .button-plus {
+    position: relative;
     width: 40px;
-    height: 40px;
-    padding: 17px 13px;
+    height: 48px;
+    padding: 14px 10px;
     border: none;
   }
+
+  .minus-icon {
+    position: absolute;
+    left: 13px;
+    top: 23px;
+    fill: #7561574D;
+  }
+
+  .plus-icon {
+    position: absolute;
+    left: 13px;
+    top: 17px;
+    fill: #7561574D;
+
+}
 
   .input-number {
     width: 31px;
     padding: 14px 3px;
     font-size: 18px;
     line-height: 20px;
+    font-weight: 700;
+    font-family: "PT Sans";
     text-align: center;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+  }
+
+  .input-number::placeholder {
+    font-family: "PT Sans";
+    color: #000000;
   }
 
   .input-number::-webkit-outer-spin-button,
-.input-number::-webkit-inner-spin-button {
+  .input-number::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
 }
