@@ -1586,6 +1586,12 @@ body {
     color: #000000;
 }
 
+.date-input:focus:not(:placeholder-shown) {
+    background-color: #F2F2F2;
+    box-shadow: 0 0 0 2px #000000;
+    outline: none;
+}
+
 .date-input:active {
     background-color: #F2F2F2;
     box-shadow: 0 0 0 2px #000000;
