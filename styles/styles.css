@@ -1512,7 +1512,7 @@ body {
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
-  }
+}
 
   .button-modal-search {
     font-size: 20px;
@@ -1522,29 +1522,29 @@ body {
     border: none;
     border-radius: 10px;
     padding: 18px 256px;
-  }
+}
 
   .button-modal-search:hover {
     background-color: #68A2CA;
-  }
+}
 
 .button-modal-search:focus {
     background-color: #68A2CA;
-  }
+}
 
 .button-modal-search:active {
     background-color: #82B3D3;
     color: #FFFFFF4D;
-  }
+}
 
 .button-modal-search:disabled {
     background-color: #E5E5E5;
-  }
+}
 
   .search-form {
     display: grid;
     gap: 48px;
-  }
+}
 
   .date-entry,
   .date-departure {
@@ -1552,13 +1552,13 @@ body {
     grid-template-columns: 137px 1fr;
     justify-items: stretch;
     align-items: stretch;
-  }
+}
 
   .date-input-container {
     display: flex;
     align-items: stretch;
     position: relative;
-  }
+}
 
   .date-input {
     flex-grow: 1;
@@ -1570,12 +1570,12 @@ body {
     background-color: #F2F2F2;
     border: none;
     border-radius: 4px;
-  }
+}
 
   .date-input::placeholder {
     font-family: "PT Sans";
     color: #000000;
-  }
+}
 
 
   .date-label,
@@ -1586,15 +1586,15 @@ body {
     color: #000000;
     padding-top: 12px;
     padding-bottom: 12px;
-  }
+}
 
   .date-label {
     padding-right: 18px;
-  }
+}
 
   .dates {
     display: grid;
-  }
+}
 
   .search-text-error,
   .search-text-not-error {
@@ -1604,15 +1604,15 @@ body {
     padding-right: 20px;
     font-size: 16px;
     line-height: 21px;
-  }
+}
 
   .search-text-error {
     color: #FF5757;
-  }
+}
 
   .search-text-not-error {
     color: #333333;
-  }
+}
 
   .button-date {
     position: absolute;
@@ -1623,33 +1623,33 @@ body {
     padding: 2px 2px 3px 2px;
     border: none;
     background-color: transparent;
-  }
+}
 
   .date-icon {
     position: absolute;
     top: 0;
     left: 0;
     fill: rgba(242, 242, 242, 1);
-  }
+}
 
   .family {
     display: flex;
     justify-content: space-between;
     gap: 88px;
-  }
+}
 
   .adult,
   .children {
     display: flex;
     flex-direction: row;
     gap: 46px;
-  }
+}
 
   .button-family {
     display: flex;
     align-items: center;
     background-color: #F2F2F2;
-  }
+}
 
   .button-minus,
   .button-plus {
@@ -1658,21 +1658,38 @@ body {
     height: 48px;
     padding: 14px 10px;
     border: none;
-  }
+}
 
-  .minus-icon {
+.minus-icon {
     position: absolute;
     left: 13px;
     top: 23px;
     fill: #7561574D;
-  }
+}
 
   .plus-icon {
     position: absolute;
     left: 13px;
     top: 17px;
     fill: #7561574D;
+}
 
+.button-minus:hover > .minus-icon,
+.button-plus:hover > .plus-icon {
+    fill: #000000;
+}
+
+.button-minus:focus > .minus-icon,
+.button-plus:focus > .plus-icon {
+    fill: #000000;
+    border: 3px solid #82B3D3;
+    border-radius: 3px;
+}
+
+.button-minus:active > .minus-icon,
+.button-plus:active > .plus-icon {
+    fill: rgba(0, 0, 0, 0.2);
+    border: none;
 }
 
   .input-number {
@@ -1686,12 +1703,12 @@ body {
     color: #000000;
     background-color: transparent;
     border: none;
-  }
+}
 
   .input-number::placeholder {
     font-family: "PT Sans";
     color: #000000;
-  }
+}
 
   .input-number::-webkit-outer-spin-button,
   .input-number::-webkit-inner-spin-button {
@@ -1701,4 +1718,4 @@ body {
 
   .search-form p {
     margin: 0;
-  }
+}
