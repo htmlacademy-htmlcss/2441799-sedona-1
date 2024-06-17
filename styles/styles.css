@@ -1524,6 +1524,23 @@ body {
     padding: 18px 256px;
   }
 
+  .button-modal-search:hover {
+    background-color: #68A2CA;
+  }
+
+.button-modal-search:focus {
+    background-color: #68A2CA;
+  }
+
+.button-modal-search:active {
+    background-color: #82B3D3;
+    color: #FFFFFF4D;
+  }
+
+.button-modal-search:disabled {
+    background-color: #E5E5E5;
+  }
+
   .search-form {
     display: grid;
     gap: 48px;
