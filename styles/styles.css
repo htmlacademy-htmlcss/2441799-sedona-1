@@ -1157,6 +1157,12 @@ body {
     z-index: 1;
 }
 
+.input-from:focus:not(:placeholder-shown) {
+    background-color: #F2F2F2;
+    box-shadow: inset 0 0 0 2px #000000;
+    outline: none;
+}
+
 .input-from:active {
     background-color: #F2F2F2;
     box-shadow: inset 0 0 0 2px #000000;
@@ -1175,6 +1181,12 @@ body {
 .input-to:focus {
     background-color: #E6E6E6;
     outline: 3px solid #83B3D3;
+}
+
+.input-to:focus:not(:placeholder-shown) {
+    background-color: #F2F2F2;
+    box-shadow: inset 0 0 0 2px #000000;
+    outline: none;
 }
 
 .input-to:active {
