@@ -1566,6 +1566,7 @@ body {
   .date-input {
     flex-grow: 1;
     padding: 12px 60px 12px 20px;
+    font-family: "PT Sans";
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -1577,14 +1578,12 @@ body {
 
 .date-input:hover {
     background-color: #E6E6E6;
-    color: rgba(0, 0, 0, 0.6);
-
 }
 
 .date-input:focus {
     background-color: #E6E6E6;
     outline: 3px solid #83B3D3;
-    color: rgba(0, 0, 0, 0.6);
+    color: #000000;
 }
 
 .date-input:active {
