@@ -1645,11 +1645,23 @@ body {
     background-color: transparent;
 }
 
-  .date-icon {
+.date-icon {
     position: absolute;
     top: 0;
     left: 0;
-    fill: rgba(242, 242, 242, 1);
+    fill: rgba(0, 0, 0, 0.3);
+}
+
+.button-date:hover > .date-icon {
+    fill: rgba(0, 0, 0, 0.7);
+}
+
+.button-date:focus > .date-icon {
+    fill: rgba(0, 0, 0, 0.7);
+}
+
+.button-date:active > .date-icon {
+    fill: rgba(0, 0, 0, 0.3);
 }
 
   .family {
