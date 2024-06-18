@@ -387,6 +387,17 @@ body {
     font-size: 20px;
 }
 
+.navigation-list-menu a:hover {
+    opacity: 0.6;
+}
+
+.navigation-list-menu a:focus {
+    opacity: 0.6;
+}
+
+.navigation-list-menu a:active {
+    opacity: 1;
+}
 
 .navigation-user {
     max-width: 88px;
