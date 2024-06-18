@@ -454,7 +454,8 @@ body {
 .hero {
     display: flex;
     justify-content: center;
-    background-image: url("../images/index/hero-index-background.jpg");
+    background:  url("../images/index/hero-divider.svg") bottom left / 0 0 no-repeat,
+    url("../images/index/hero-index-background.jpg");
     background-color: #3F5E72;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -462,13 +463,6 @@ body {
     padding-bottom: 82px;
     position: relative;
     z-index: -1;
-}
-
-.hero::after {
-    content: url("../images/index/hero-divider.svg");
-    position: absolute;
-    bottom: -5px;
-    z-index: 0;
 }
 
 .image-welcome {
