@@ -1497,9 +1497,11 @@ body {
     background-color: rgba(242, 242, 242, 0.8);
 }
 
+/*
 .modal-container-close {
     display: none;
 }
+*/
 
 .modal {
     position: relative;
@@ -1584,7 +1586,7 @@ body {
 
 .search-form {
     display: grid;
-    gap: 48px;
+    gap: 23px;
 }
 
 .date-entry,
@@ -1593,6 +1595,7 @@ body {
     grid-template-columns: 137px 1fr;
     justify-items: stretch;
     align-items: stretch;
+    row-gap: 4px;
 }
 
 .date-input-container {
@@ -1728,6 +1731,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 88px;
+    margin-bottom: 25px;
 }
 
 .adult,
@@ -1843,7 +1847,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-    padding: 15px 18px 18px 22px;
+    padding: 20px 18px 23px 22px;
     width: 256px;
     border-radius: 10px;
     text-transform: none;
@@ -1852,7 +1856,6 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     background-color: #333333;
-    display: none;
 }
 
 .tooltip-button:hover + .tooltip-text,
