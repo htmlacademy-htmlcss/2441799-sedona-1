@@ -1701,26 +1701,21 @@ body {
     background-color: #F2F2F2;
 }
 
-  .button-minus,
-  .button-plus {
-    position: relative;
-    width: 40px;
-    height: 48px;
-    padding: 14px 10px;
+.button-minus,
+.button-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 3px 3px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: none;
 }
 
-.minus-icon {
-    position: absolute;
-    left: 13px;
-    top: 23px;
-    fill: #7561574D;
-}
-
+.minus-icon,
 .plus-icon {
-    position: absolute;
-    left: 13px;
-    top: 17px;
     fill: #7561574D;
 }
 
@@ -1729,17 +1724,20 @@ body {
     fill: #000000;
 }
 
-.button-minus:focus > .minus-icon,
-.button-plus:focus > .plus-icon {
-    fill: #000000;
-    border: 3px solid #82B3D3;
+.button-minus:focus,
+.button-plus:focus {
+    outline: 3px solid #82B3D3;
     border-radius: 3px;
+}
+
+.button-minus:active,
+.button-plus:active {
+    outline: none;
 }
 
 .button-minus:active > .minus-icon,
 .button-plus:active > .plus-icon {
     fill: rgba(0, 0, 0, 0.2);
-    border: none;
 }
 
   .input-number {
