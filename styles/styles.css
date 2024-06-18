@@ -1542,7 +1542,7 @@ body {
     text-transform: uppercase;
 }
 
-  .button-modal-search {
+.button-modal-search {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -1552,7 +1552,7 @@ body {
     padding: 18px 256px;
 }
 
-  .button-modal-search:hover {
+.button-modal-search:hover {
     background-color: #68A2CA;
 }
 
@@ -1599,6 +1599,7 @@ body {
     background-color: #F2F2F2;
     border: none;
     border-radius: 4px;
+    width: 440px;
 }
 
 .date-input:hover {
@@ -1637,6 +1638,21 @@ body {
     color: #000000;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+.family-label-children {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.label-children-icon {
+    position: relative;
+    padding-right: 36px;
+    max-width: 131px;
+}
+
+.family-label-adult {
+    max-width: 137px;
 }
 
 .date-label {
@@ -1695,7 +1711,7 @@ body {
     fill: rgba(0, 0, 0, 0.3);
 }
 
-  .family {
+.family {
     display: flex;
     justify-content: space-between;
     gap: 88px;
@@ -1705,6 +1721,7 @@ body {
 .children {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     gap: 46px;
 }
 
@@ -1780,3 +1797,64 @@ body {
 .search-form p {
     margin: 0;
 }
+
+/* Тултип */
+
+.tooltip {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+.tooltip-button {
+    display: block;
+    padding: 3px 3px;
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #83B3D3;
+    width: 26px;
+    height: 26px;
+  }
+
+.tooltip-button:hover {
+    background-color: #3F5E72;
+}
+
+.tooltip-text {
+    position: absolute;
+    top: 100%;
+    margin-top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    padding: 15px 18px 18px 22px;
+    width: 256px;
+    border-radius: 10px;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #333333;
+    display: none;
+}
+
+.tooltip-button:hover + .tooltip-text,
+.tooltip-button:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::before {
+    content: "";
+    background-color: #333333;
+    width: 19px;
+    height: 9px;
+    position:absolute;
+    top: -8.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+  }
