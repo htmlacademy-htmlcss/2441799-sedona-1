@@ -363,6 +363,7 @@ body {
 }
 
 .button-navigation-link {
+    line-height: 20px;
     color: #FFFFFF;
     padding: 8px 34px;
 }
