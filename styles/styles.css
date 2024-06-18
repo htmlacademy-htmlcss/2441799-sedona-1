@@ -726,22 +726,22 @@ body {
     padding: 14px 20px;
 }
 
-.field:hover {
+.distribution-input:hover {
     background-color: #E6E6E6;
 }
 
-.field:focus {
+.distribution-input:focus {
     background-color: #E6E6E6;
-    outline: 3px solid #83B3D3;
+    outline: 1px solid #83B3D3;
 }
 
-.field:active {
+.distribution-input:active {
     background-color: #F2F2F2;
     box-shadow: inset 0 0 0 2px #000000;
     outline: none;
 }
 
-.field::placeholder {
+.distribution-input::placeholder {
     font-family: "PT Sans";
     color: rgba(0, 0, 0, 0.6);
 }
@@ -1459,11 +1459,6 @@ body {
 
 /* Модальное окно */
 
-/*
-.modal-container-close {
-    display: none;
-}
-*/
 
 .modal-container {
     position: fixed;
@@ -1474,6 +1469,12 @@ body {
     height: 100%;
     background-color: rgba(242, 242, 242, 0.8);
 }
+
+/*
+.modal-container-close {
+    display: none;
+}
+*/
 
 .modal {
     position: relative;
@@ -1556,26 +1557,26 @@ body {
     background-color: #E5E5E5;
 }
 
-  .search-form {
+.search-form {
     display: grid;
     gap: 48px;
 }
 
-  .date-entry,
-  .date-departure {
+.date-entry,
+.date-departure {
     display: grid;
     grid-template-columns: 137px 1fr;
     justify-items: stretch;
     align-items: stretch;
 }
 
-  .date-input-container {
+.date-input-container {
     display: flex;
     align-items: stretch;
     position: relative;
 }
 
-  .date-input {
+.date-input {
     flex-grow: 1;
     padding: 12px 60px 12px 20px;
     font-family: "PT Sans";
@@ -1616,8 +1617,8 @@ body {
 }
 
 
-  .date-label,
-  .family-label {
+.date-label,
+.family-label {
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
@@ -1626,16 +1627,16 @@ body {
     padding-bottom: 12px;
 }
 
-  .date-label {
+.date-label {
     padding-right: 18px;
 }
 
-  .dates {
+.dates {
     display: grid;
 }
 
-  .search-text-error,
-  .search-text-not-error {
+.search-text-error,
+.search-text-not-error {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding-left: 20px;
@@ -1644,15 +1645,15 @@ body {
     line-height: 21px;
 }
 
-  .search-text-error {
+.search-text-error {
     color: #FF5757;
 }
 
-  .search-text-not-error {
+.search-text-not-error {
     color: #333333;
 }
 
-  .button-date {
+.button-date {
     position: absolute;
     right: 22px;
     align-self: center;
@@ -1688,14 +1689,14 @@ body {
     gap: 88px;
 }
 
-  .adult,
-  .children {
+.adult,
+.children {
     display: flex;
     flex-direction: row;
     gap: 46px;
 }
 
-  .button-family {
+.button-family {
     display: flex;
     align-items: center;
     background-color: #F2F2F2;
@@ -1740,7 +1741,7 @@ body {
     fill: rgba(0, 0, 0, 0.2);
 }
 
-  .input-number {
+.input-number {
     width: 31px;
     padding: 14px 3px;
     font-size: 18px;
@@ -1753,17 +1754,17 @@ body {
     border: none;
 }
 
-  .input-number::placeholder {
+.input-number::placeholder {
     font-family: "PT Sans";
     color: #000000;
 }
 
-  .input-number::-webkit-outer-spin-button,
-  .input-number::-webkit-inner-spin-button {
+.input-number::-webkit-outer-spin-button,
+.input-number::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
 }
 
-  .search-form p {
+.search-form p {
     margin: 0;
 }
