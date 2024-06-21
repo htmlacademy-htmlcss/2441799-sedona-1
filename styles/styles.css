@@ -1574,6 +1574,7 @@ body {
     padding-right: 40px;
     margin-right: 70px;
     background-image: url("../images/icons/arrow.svg");
+    background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: right 20px center;
 }
@@ -1583,8 +1584,12 @@ body {
 }
 
 .select-control:focus {
-    border-color: #3F5E72;
+    border-color: #68A2CA;
     outline: none;
+}
+
+.select-control:active {
+    border-color: #3F5E72;
 }
 
 .select-control:disabled {
