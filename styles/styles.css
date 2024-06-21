@@ -304,19 +304,20 @@ body {
 
 .light-button:focus {
     background-color: transparent;
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     border-radius: 4px;
+    color: #FFFFFF;
 }
 
 .light-button:active {
     background-color: transparent;
     color: #FFFFFF4D;
-    border: 0;
+    outline: none;
 }
 
 .light-button:disabled {
     background-color: transparent;
-    border: 0;
+    outline: none;
     color: rgba(255, 255, 255, 0.1);
 }
 
@@ -1278,6 +1279,7 @@ body {
     height: 48px;
     background-color: #F2F2F2;
     width: 143px;
+    font-family: "PT Sans";
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -1325,27 +1327,21 @@ body {
 
 .input-from::-webkit-input-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-from::-moz-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-from:-ms-input-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-from::-ms-input-placeholder {
-    font-family: "PT Sans";
-    color: #000000;
-}
+    font-family: "PT Sans";}
 
 .input-from::placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-to:hover {
@@ -1385,27 +1381,22 @@ body {
 
 .input-to::-webkit-input-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-to::-moz-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-to:-ms-input-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-to::-ms-input-placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-to::placeholder {
     font-family: "PT Sans";
-    color: #000000;
 }
 
 .input-from {
@@ -1423,6 +1414,11 @@ body {
     -webkit-appearance: none;
             appearance: none;
     margin: 0;
+}
+
+.input-from,
+.input-to {
+    -moz-appearance:textfield;
 }
 
 
