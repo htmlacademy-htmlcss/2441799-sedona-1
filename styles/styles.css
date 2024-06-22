@@ -540,7 +540,7 @@ body {
     width: 1200px;
 }
 
-.container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
+/*.container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
     width: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -557,6 +557,19 @@ body {
             align-items: center;
 }
 
+.advantages-comfort-item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 81px 85px;
+}
+*/
+
+.container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
+    width: 400px;
+    display: block;
+}
+
 .container-white-advantages {
     padding: 102px 85px;
     -webkit-box-ordinal-group: 2;
@@ -564,20 +577,14 @@ body {
             order: 1;
 }
 
-.black-1-advantages {
+.black-1-advantages,
+.black-2-advantages {
     background-color: #83B3D31F;
     padding: 112.5px 85px;
 }
 
-.black-2-advantages {
-    background-color: #83B3D333;
-    padding: 112.5px 85px;
-}
-
-.advantages-comfort-item {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+.advantages-comfort-item,
+.black-1-advantages-comfort {
     padding: 81px 85px;
 }
 
@@ -648,6 +655,10 @@ body {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+}
+
+.photo-1 {
+    order: 2;
 }
 
 .photo-2 {
