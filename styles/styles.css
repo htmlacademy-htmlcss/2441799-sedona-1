@@ -540,31 +540,6 @@ body {
     width: 1200px;
 }
 
-/*.container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
-    width: 400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-
-.advantages-comfort-item {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    padding: 81px 85px;
-}
-*/
-
 .container-white-advantages, .black-1-advantages, .black-2-advantages, .advantages-comfort-item {
     width: 400px;
     display: block;
@@ -810,11 +785,9 @@ body {
 }
 
 .distribution-form {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto 232px;
-    grid-template-columns: auto 232px;
+    display: flex;
     width: 684px;
+    justify-content: space-between;
 }
 
 .distribution-input {
@@ -1133,6 +1106,18 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.filter-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-right {
+    display: flex;
+    align-items: flex-start;
 }
 
 .filter-button-container {
@@ -1159,7 +1144,6 @@ body {
 .filter-infrastructure {
     margin-right: 70px;
 }
-
 
 .filter-price {
     margin-left: auto;
