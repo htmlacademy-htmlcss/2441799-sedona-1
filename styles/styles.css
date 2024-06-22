@@ -1029,6 +1029,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     margin-bottom: 40px;
