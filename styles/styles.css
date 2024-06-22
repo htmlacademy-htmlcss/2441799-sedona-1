@@ -126,11 +126,11 @@ body {
 .button-search:active {
     background-color: #756157;
     color: #FFFFFF4D;
- }
+}
 
  .button-search:disabled {
      background-color: #E5E5E5;
- }
+}
 
 .button-catalog-details:hover {
     background-color: #615048;
@@ -143,11 +143,11 @@ body {
 .button-catalog-details:active {
     background-color: #756157;
     color: #FFFFFF4D;
- }
+}
 
  .button-catalog-details:disabled {
      background-color: #E5E5E5;
- }
+}
 
 
 .button-distribution, .filter-button, .button-catalog-favorite {
@@ -975,11 +975,11 @@ body {
 
 .footer-tel:focus {
     color: #756157;
- }
+}
 
  .footer-tel:active {
     color: #7561574D;
- }
+}
 
 .dev-logo {
     position: relative;
@@ -1258,7 +1258,7 @@ body {
 
 .control-input[type="radio"] + .control-mark {
     border-radius: 50%;
-  }
+}
 
 .control-input[type="radio"]:checked + .control-mark::before {
     position: absolute;
@@ -2189,7 +2189,7 @@ body {
     background-color: #83B3D3;
     width: 26px;
     height: 26px;
-  }
+}
 
 .tooltip-button:hover {
     background-color: #3F5E72;
@@ -2234,4 +2234,4 @@ body {
             transform: translateX(-50%);
     -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
             clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-  }
+}
