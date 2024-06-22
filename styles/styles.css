@@ -2160,7 +2160,7 @@ body {
 }
 
 .input-number:disabled,
-.input-number:hover {
+.input-number:hover:disabled {
     background-color: rgba(63, 94, 114, 0.6);
     border: 2px solid rgba(63, 94, 114, 1);
     color: rgba(0, 0, 0, 0.2);
