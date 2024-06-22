@@ -1942,6 +1942,7 @@ body {
 .family-label-children {
     padding-top: 12px;
     padding-bottom: 12px;
+    max-width: 137px;
 }
 
 .label-children-icon {
