@@ -843,6 +843,13 @@ body {
     color: rgba(0, 0, 0, 0.6);
 }
 
+.distribution-input:disabled,
+.distribution-input:disabled:hover {
+    background-color: rgba(63, 94, 114, 0.6);
+    border: 2px solid rgba(63, 94, 114, 1);
+    color: rgba(0, 0, 0, 0.2);
+}
+
 /* Footer */
 
 .page-footer-container {
@@ -1929,6 +1936,13 @@ body {
     color: rgba(0, 0, 0, 0.6);
 }
 
+.date-input:disabled,
+.date-input:disabled:hover {
+    background-color: rgba(63, 94, 114, 0.6);
+    border: 2px solid rgba(63, 94, 114, 1);
+    color: rgba(0, 0, 0, 0.2);
+}
+
 
 .date-label,
 .family-label {
@@ -2143,6 +2157,13 @@ body {
     -webkit-appearance: none;
             appearance: none;
     margin: 0;
+}
+
+.input-number:disabled,
+.input-number:hover {
+    background-color: rgba(63, 94, 114, 0.6);
+    border: 2px solid rgba(63, 94, 114, 1);
+    color: rgba(0, 0, 0, 0.2);
 }
 
 .search-form p {
