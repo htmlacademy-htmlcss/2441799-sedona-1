@@ -110,6 +110,7 @@ body {
 
 .button-navigation-link:focus {
     background-color: #615048;
+    outline: none;
 }
 
 .button-navigation-link:active {
@@ -129,6 +130,7 @@ body {
 
 .button-search:focus {
     background-color: #615048;
+    outline: none;
 }
 
 .button-search:active {
@@ -148,6 +150,7 @@ body {
 
 .button-catalog-details:focus {
     background-color: #615048;
+    outline: none;
 }
 
 .button-catalog-details:active {
@@ -174,6 +177,7 @@ body {
 
 .button-distribution:focus {
     background-color: #68A2CA;
+    outline: none;
 }
 
 .button-distribution:active {
@@ -192,6 +196,7 @@ body {
 
 .filter-button:focus {
     background-color: #68A2CA;
+    outline: none;
 }
 
 .filter-button:active {
@@ -210,6 +215,7 @@ body {
 
 .button-catalog-favorite:focus {
     background-color: #68A2CA;
+    outline: none;
 }
 
 .button-catalog-favorite:active {
@@ -245,6 +251,8 @@ body {
 
 .button-light:focus {
     border-color: #68A2CA;
+    outline: none;
+
 }
 
 .button-light:active {
@@ -292,6 +300,7 @@ body {
 
 .button-catalog-active-favorite:focus {
     background-color: #6C9E42;
+    outline: none;
 }
 
 .button-catalog-active-favorite:active {
@@ -441,6 +450,7 @@ body {
 
 .navigation-list-menu a:focus {
     opacity: 0.6;
+    outline: none;
 }
 
 .navigation-list-menu a:active {
@@ -451,6 +461,19 @@ body {
     max-width: 88px;
     margin-left: auto;
     margin-right: 20px;
+}
+
+.navigation-user a:hover {
+    opacity: 0.6;
+}
+
+.navigation-user a:focus {
+    opacity: 0.6;
+    outline: none;
+}
+
+.navigation-user a:active {
+    opacity: 1;
 }
 
 .navigation-link-user {
@@ -1409,6 +1432,7 @@ body {
     color: #FFFFFF;
 
     border: 3px solid #83B3D3;
+    outline: none;
     box-shadow: 0 4px 10px 0 #00000040;
 }
 
