@@ -8,7 +8,7 @@
 @font-face {
     font-family: "PT Sans";
     font-weight: 400;
-    font-style:normal;
+    font-style: normal;
     src: url("../fonts/ptsans-400.woff2") format("WOFF2");
     font-display: swap;
 }
@@ -1685,10 +1685,15 @@ body {
     border-radius: 4px;
 }
 
-.catalog-image {
+.catalog-item-image-link {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
+}
+
+.catalog-image {
+    display: block;
+
     -o-object-fit: contain;
        object-fit: contain;
 }
@@ -1767,8 +1772,14 @@ body {
     margin-left: auto;
 }
 
-.catalog-item-title {
+.catalog-item-title-link {
     grid-column: 1/-1;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog-item-title {
     margin: 0;
 
     font-size: 24px;
