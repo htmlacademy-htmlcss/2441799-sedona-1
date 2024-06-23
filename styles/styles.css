@@ -476,10 +476,6 @@ body {
     opacity: 1;
 }
 
-.navigation-link-user {
-    padding: 22px 12px;
-}
-
 .navigation-link-user-search {
     background-position: center;
     background-image: url("../images/icons/icons-search.svg");
@@ -749,6 +745,7 @@ body {
     align-items: center;
     width: 592px;
 }
+
 .search-title,
 .distribution-title,
 .distribution-title-catalog {
@@ -857,7 +854,7 @@ body {
 }
 
 .distribution-input::placeholder {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -1306,7 +1303,7 @@ body {
     height: 48px;
     padding: 12px 50px 12px  20px;
 
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -1341,7 +1338,7 @@ body {
 }
 
 .input-from::placeholder {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
 }
 
 .input-to:hover {
@@ -1366,7 +1363,7 @@ body {
 }
 
 .input-to::placeholder {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
 }
 
 .input-from {
@@ -1387,10 +1384,6 @@ body {
             appearance: none;
 }
 
-.input-from,
-.input-to {
-    -moz-appearance: textfield;
-}
 
 /* Регулировка цены */
 
@@ -1530,7 +1523,7 @@ body {
     padding-right: 40px;
     margin-right: 70px;
 
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
@@ -1666,11 +1659,6 @@ body {
     background-color: #68A2CA;
 }
 
-.pagination-hidden {
-    padding-top: 16.36px;
-    padding-bottom: 17.64px;
-}
-
 .pagination-current {
     color: #000000;
 
@@ -1678,6 +1666,9 @@ body {
 }
 
 .pagination-hidden {
+    padding-top: 16.36px;
+    padding-bottom: 17.64px;
+
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -1816,7 +1807,7 @@ body {
     width: 440px;
     padding: 12px 60px 12px 20px;
 
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -1851,7 +1842,7 @@ body {
 }
 
 .date-input::placeholder {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -2021,7 +2012,7 @@ body {
     width: 31px;
     padding: 14px 3px;
 
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -2033,7 +2024,7 @@ body {
 }
 
 .input-number::placeholder {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     color: #000000;
 }
 
