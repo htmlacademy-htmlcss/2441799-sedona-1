@@ -1384,6 +1384,11 @@ body {
             appearance: none;
 }
 
+.input-from,
+.input-to {
+    -moz-appearance: textfield;
+}
+
 
 /* Регулировка цены */
 
