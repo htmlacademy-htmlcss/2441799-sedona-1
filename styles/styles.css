@@ -42,7 +42,7 @@ body {
     line-height: 21px;
     color: #000000;
 
-    background-color: #FFFFFF;
+    background-color: #F2F2F2;
 }
 
 .visually-hidden {
@@ -342,8 +342,6 @@ body {
 }
 
 .light-button:disabled {
-
-
     background-color: transparent;
     outline: none;
 }
@@ -372,6 +370,8 @@ body {
     padding-left: 70px;
     padding-right: 70px;
     width: 1200px;
+
+    background-color: #FFFFFF;
 }
 
 .navigation-logo {
@@ -518,11 +518,11 @@ body {
 .page-container {
     width: 1200px;
     margin: 0 auto;
+
+    background-color: #FFFFFF;
 }
 
 .hero {
-    position: relative;
-    z-index: -1;
     display: flex;
     justify-content: center;
     padding-top: 51px;
