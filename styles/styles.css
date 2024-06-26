@@ -1487,6 +1487,7 @@ body {
 .catalog-item {
     display: grid;
     grid-template-columns: 140px 140px;
+    grid-template-rows: auto 1fr auto auto;
     column-gap: 20px;
     row-gap: 16px;
     width: 340px;
@@ -1575,6 +1576,7 @@ body {
 
 .catalog-item-title-link {
     grid-column: 1/-1;
+    align-self: end;
 
     color: #000000;
     text-decoration: none;
@@ -1604,14 +1606,17 @@ body {
 
 .star-4-container {
     background-image: url("../images/icons/star-4.svg");
+    background-repeat: no-repeat;
 }
 
 .star-3-container {
     background-image: url("../images/icons/star-3.svg");
+    background-repeat: no-repeat;
 }
 
 .star-2-container {
     background-image: url("../images/icons/star-2.svg");
+    background-repeat: no-repeat;
 }
 
 /* Пагинация */
