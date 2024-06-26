@@ -556,7 +556,7 @@ body {
 }
 
 .advantages-cause-list,
-.advantages-comfot-list {
+.advantages-comfort-list {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -2116,7 +2116,6 @@ body {
     width: 256px;
     margin-top: 15px;
     padding: 20px 18px 23px 22px;
-
 
     font-size: 16px;
     line-height: 20px;
