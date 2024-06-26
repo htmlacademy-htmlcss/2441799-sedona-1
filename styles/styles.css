@@ -118,7 +118,6 @@ body {
 
 .button-navigation-link:focus {
     background-color: #615048;
-    outline: none;
 }
 
 .button-navigation-link:active {
@@ -137,7 +136,6 @@ body {
 
 .button-search:focus {
     background-color: #615048;
-    outline: none;
 }
 
 .button-search:active {
@@ -156,7 +154,6 @@ body {
 
 .button-catalog-details:focus {
     background-color: #615048;
-    outline: none;
 }
 
 .button-catalog-details:active {
@@ -181,7 +178,6 @@ body {
 
 .button-distribution:focus {
     background-color: #68A2CA;
-    outline: none;
 }
 
 .button-distribution:active {
@@ -200,7 +196,6 @@ body {
 
 .filter-button:focus {
     background-color: #68A2CA;
-    outline: none;
 }
 
 .filter-button:active {
@@ -219,7 +214,6 @@ body {
 
 .button-catalog-favorite:focus {
     background-color: #68A2CA;
-    outline: none;
 }
 
 .button-catalog-favorite:active {
@@ -256,7 +250,6 @@ body {
 .button-light:focus {
     border-color: #68A2CA;
     outline: none;
-
 }
 
 .button-light:active {
@@ -304,7 +297,6 @@ body {
 
 .button-catalog-active-favorite:focus {
     background-color: #6C9E42;
-    outline: none;
 }
 
 .button-catalog-active-favorite:active {
@@ -350,6 +342,8 @@ body {
 }
 
 .light-button:disabled {
+    color: rgba(255, 255, 255, 0.1);
+
     background-color: transparent;
     outline: none;
 }
@@ -453,7 +447,6 @@ body {
 
 .navigation-list-menu a:focus {
     opacity: 0.6;
-    outline: none;
 }
 
 .navigation-list-menu a:active {
@@ -478,7 +471,6 @@ body {
 
 .navigation-user a:focus {
     opacity: 0.6;
-    outline: none;
 }
 
 .navigation-user a:active {
