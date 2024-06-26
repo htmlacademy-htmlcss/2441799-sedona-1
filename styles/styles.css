@@ -147,7 +147,7 @@ body {
 }
 
 .button-search:disabled {
-     background-color: #E5E5E5;
+    background-color: #E5E5E5;
 }
 
 .button-catalog-details:hover {
@@ -165,7 +165,7 @@ body {
 }
 
 .button-catalog-details:disabled {
-     background-color: #E5E5E5;
+    background-color: #E5E5E5;
 }
 
 .button-distribution,
