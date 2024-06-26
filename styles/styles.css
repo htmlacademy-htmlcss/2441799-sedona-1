@@ -1525,7 +1525,8 @@ body {
 .catalog-text {
     margin-top: 6.5px;
     margin-bottom: 6.5px;
-    margin-right: 200px;
+    width: 468px;
+    margin-right: 70px;
 
     font-size: 30px;
     line-height: 36px;
