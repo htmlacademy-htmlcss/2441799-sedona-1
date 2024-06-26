@@ -711,7 +711,7 @@ body {
 }
 
 .advantages-comfort-title-house::before {
-    content: url("../images/icons/Advantage-icon-house.svg");
+    content: url("../images/icons/advantage-icon-house.svg");
 
     display: block;
     padding-bottom: 30px;
@@ -720,7 +720,7 @@ body {
 }
 
 .advantages-comfort-title-food::before {
-    content: url("../images/icons/Advantage-icon-food.svg");
+    content: url("../images/icons/advantage-icon-food.svg");
 
     display: block;
     padding-bottom: 31px;
@@ -729,7 +729,7 @@ body {
 }
 
 .advantages-comfort-title-present::before {
-    content: url("../images/icons/Advantage-icon-present.svg");
+    content: url("../images/icons/advantage-icon-present.svg");
 
     display: block;
     padding-bottom: 28px;
